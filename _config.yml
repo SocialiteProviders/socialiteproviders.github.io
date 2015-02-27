@@ -1,0 +1,11 @@
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+relative_permalinks: false
+
+include: ['_providers']
+
+sass:
+  sass_dir: static/styles
+  style: :compressed

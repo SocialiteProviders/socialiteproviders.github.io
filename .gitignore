@@ -1,0 +1,5 @@
+# Created by https://www.gitignore.io
+
+### Sass ###
+.sass-cache
+*.css.map

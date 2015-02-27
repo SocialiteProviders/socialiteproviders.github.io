@@ -1,0 +1,47 @@
+header
+  background-color: $background-header
+  padding-bottom: 50px
+  .logo
+    +size(50px)
+    float: left
+    margin: 10px 0 0 30px
+    path
+      fill: rgba(0, 0, 0, 0.4)
+  nav
+    float: right
+    padding: 30px 30px 0 0
+    a
+      +transition(color 300ms ease-in-out)
+      color: rgba(255, 255, 255, 0.7)
+      display: inline-block
+      font-weight: 400
+      letter-spacing: 0.2em
+      margin-left: 20px
+      text-transform: uppercase
+      &:hover
+        color: rgba(255, 255, 255, 1)
+  h1
+    clear: both
+    color: white
+    font:
+      size: 72px
+      weight: 700
+    letter-spacing: 0.05em
+    margin-bottom: 20px
+    padding-top: 100px
+    text-align: center
+    span
+      text-transform: uppercase
+      +transition(color 300ms ease-in-out)
+      border: white solid 10px
+      display: inline-block
+      padding: 0.2em 0.5em
+      &:hover
+        color: #E74430
+  .kicker
+    color: white
+    font-weight: 400
+    letter-spacing: 0.2em
+    line-height: 1
+    text-align: center
+    text-transform: uppercase

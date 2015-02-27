@@ -1,0 +1,13 @@
+<section>
+
+  <h2 id="packages">Packages</h2>
+
+  <ul class="badges">
+  {% for provider in site.data.providers.list %}
+    <li>
+      <a href="/providers/{{ provider.name | downcase | replace:' ','-' }}" target="_blank">{{ provider.name }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+
+</section>
