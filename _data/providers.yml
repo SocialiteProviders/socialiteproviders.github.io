@@ -52,13 +52,6 @@ list:
 }
 
 - {
-    name: 'BitBucket',
-    repo: 'https://github.com/SocialiteProviders/BitBucket',
-    maintainer: 'AndyWendt',
-    maintainer_profile: 'https://github.com/AndyWendt'
-}
-
-- {
     name: 'Box',
     repo: 'https://github.com/SocialiteProviders/Box',
     maintainer: 'DraperStudio',
