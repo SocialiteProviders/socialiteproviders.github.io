@@ -1,3 +1,5 @@
+{% comment %} Assign variables for current provider {% endcomment $}
+
 {% for provider in site.data.providers %}
     {% if provider.name == page.title %}
         {% assign name = provider.name %}
@@ -11,6 +13,8 @@
     {% endif%}
 {% endfor %}
 
+{% comment %} Create the provider key by removing any special chars from the name and upcasing {% endcomment %]
+
 {% assign remove = '. +' | split: ' ' %}
 {% assign provider_key = name %}
 {% for char in remove %}
@@ -18,6 +22,11 @@
 {% endfor %}
 
 {% assign provider_key = provider_key | upcase %}
+
+
+{% comment %}
+Include the templates.  They use the above variables. 
+{% endcomment %}
 
 {% include provider/_contents.md %}
 
