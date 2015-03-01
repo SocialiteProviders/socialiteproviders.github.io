@@ -23,162 +23,216 @@
   repo: 'https://github.com/SocialiteProviders/500px'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/500px'
+  listener: 'SocialiteProviders\FiveHundredPixel\FiveHundredPixelExtendSocialite@handle'
 
 
 - name: 'AngelList'
   repo: 'https://github.com/SocialiteProviders/AngelList'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/angellist'
+  listener: 'SocialiteProviders\AngelList\AngelListExtendSocialite@handle'
 
 
 - name: 'App.net'
   repo: 'https://github.com/SocialiteProviders/AppNet'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/appnet'
+  listener: 'SocialiteProviders\AppNet\AppNetExtendSocialite@handle'
 
 
 - name: 'Asana'
   repo: 'https://github.com/SocialiteProviders/Asana'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/asana'
+  listener: 'SocialiteProviders\Asana\AsanaExtendSocialite@handle'
 
 
 - name: 'Bit.ly'
   repo: 'https://github.com/SocialiteProviders/Bit.ly'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/bitly'
+  listener: 'SocialiteProviders\Bitly\BitlyExtendSocialite@handle'
 
 
 - name: 'Box'
   repo: 'https://github.com/SocialiteProviders/Box'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/box'
+  listener: 'SocialiteProviders\Box\BoxExtendSocialite@handle'
 
 
 - name: 'Buffer'
   repo: 'https://github.com/SocialiteProviders/Buffer'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/buffer'
+  listener: 'SocialiteProviders\Buffer\BufferExtendSocialite@handle'
 
 
 - name: 'CampaignMonitor'
   repo: 'https://github.com/SocialiteProviders/CampaignMonitor'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/campaignmonitor'
+  listener: 'SocialiteProviders\CampaignMonitor\CampaignMonitorExtendSocialite@handle'
 
 
 - name: 'Cheddar'
   repo: 'https://github.com/SocialiteProviders/Cheddar'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/cheddar'
+  listener: 'SocialiteProviders\Cheddar\CheddarExtendSocialite@handle'
 
 
 - name: 'Coinbase'
   repo: 'https://github.com/SocialiteProviders/Coinbase'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/coinbase'
+  listener: 'SocialiteProviders\Coinbase\CoinbaseExtendSocialite@handle'
 
 
 - name: 'ConstantContact'
   repo: 'https://github.com/SocialiteProviders/ConstantContact'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/constantcontact'
+  listener: 'SocialiteProviders\ConstantContact\ConstantContactExtendSocialite@handle'
 
 
 - name: 'Dailymile'
   repo: 'https://github.com/SocialiteProviders/Dailymile'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/dailymile'
+  listener: 'SocialiteProviders\Dailymile\DailymileExtendSocialite@handle'
 
 
 - name: 'Dailymotion'
   repo: 'https://github.com/SocialiteProviders/Dailymotion'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/dailymotion'
+  listener: 'SocialiteProviders\Dailymotion\DailymotionExtendSocialite@handle'
 
 
 - name: 'Deezer'
   repo: 'https://github.com/SocialiteProviders/Deezer'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/deezer'
+  listener: 'SocialiteProviders\Deezer\DeezerExtendSocialite@handle'
 
 
 - name: 'deviantART'
   repo: 'https://github.com/SocialiteProviders/deviantART'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/deviantart'
+  listener: 'SocialiteProviders\DeviantArt\DeviantArtExtendSocialite@handle'
 
 
 - name: 'DigitalOcean'
   repo: 'https://github.com/SocialiteProviders/DigitalOcean'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/digitalocean'
+  listener: 'SocialiteProviders\DigitalOcean\DigitalOceanExtendSocialite@handle'
 
 
 - name: 'Disqus'
   repo: 'https://github.com/SocialiteProviders/Disqus'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/disqus'
+  listener: 'SocialiteProviders\Disqus\DisqusExtendSocialite@handle'
 
 
 - name: 'Dribbble'
   repo: 'https://github.com/SocialiteProviders/Dribbble'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/dribbble'
+  listener: 'SocialiteProviders\Dribbble\DribbbleExtendSocialite@handle'
 
 
 - name: 'Dropbox'
   repo: 'https://github.com/SocialiteProviders/Dropbox'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/dropbox'
+  listener: 'SocialiteProviders\Dropbox\DropboxExtendSocialite@handle'
 
 
 - name: 'Eventbrite'
   repo: 'https://github.com/SocialiteProviders/Eventbrite'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/eventbrite'
+  listener: 'SocialiteProviders\Eventbrite\EventbriteExtendSocialite@handle'
 
 
 - name: 'Everyplay'
   repo: 'https://github.com/SocialiteProviders/Everyplay'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/everyplay'
+  listener: 'SocialiteProviders\Everyplay\EveryplayExtendSocialite@handle'
 
 
 - name: 'EyeEm'
   repo: 'https://github.com/SocialiteProviders/EyeEm'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/eyeem'
+  listener: 'SocialiteProviders\EyeEm\EyeEmExtendSocialite@handle'
 
 
 - name: 'Fitbit'
   repo: 'https://github.com/SocialiteProviders/Fitbit'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/fitbit'
+  listener: 'SocialiteProviders\Fitbit\FitbitExtendSocialite@handle'
 
 
 - name: 'Flickr'
   repo: 'https://github.com/SocialiteProviders/Flickr'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/flickr'
+  listener: 'SocialiteProviders\Flickr\FlickrExtendSocialite@handle'
 
 
 - name: 'Foursquare'
   repo: 'https://github.com/SocialiteProviders/Foursquare'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
-
+  package: 'socialiteproviders/foursquare'
+  listener: 'SocialiteProviders\Foursquare\FoursquareExtendSocialite@handle'
+  
 
 - name: 'Goodreads'
   repo: 'https://github.com/SocialiteProviders/Goodreads'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/goodreads'
+  listener: 'SocialiteProviders\Goodreads\GoodreadsExtendSocialite@handle'
 
 
 - name: 'Google+'
   repo: 'https://github.com/SocialiteProviders/Google-Plus'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/google'
+  listener: 'SocialiteProviders\Google\GoogleExtendSocialite@handle'
 
 
 - name: 'Heroku'

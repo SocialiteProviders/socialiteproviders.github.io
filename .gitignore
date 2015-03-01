@@ -4,3 +4,4 @@
 .sass-cache
 *.css.map
 .idea
+_site

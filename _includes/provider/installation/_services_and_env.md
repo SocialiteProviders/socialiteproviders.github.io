@@ -3,11 +3,11 @@
 #### Add to `config/services.php`.
 
 {% highlight php %}
-'23andme' => [
-    'client_id' => env('{{ name | upcase }}_KEY'),
-    'client_secret' => env('{{ name | upcase }}_SECRET'),
-    'redirect' => env('{{ name | upcase }}_REDIRECT_URI'), {% if extra_service_lines != empty %} {% for line in extra_service_lines %}    
-    '{{ line.key | downcase }}' => env('{{ name | upcase }}_{{ line.value | upcase }}'), {% endfor %}
+'{{ provider_key | downcase }}' => [
+    'client_id' => env('{{ provider_key }}_KEY'),
+    'client_secret' => env('{{ provider_key }}_SECRET'),
+    'redirect' => env('{{ provider_key }}_REDIRECT_URI'), {% if extra_service_lines != empty %} {% for line in extra_service_lines %}    
+    '{{ line.key | downcase }}' => env('{{ provider_key }}_{{ line.value | upcase }}'), {% endfor %}
 ], {% else %}
 ],
 {% endif %}
@@ -17,8 +17,8 @@
 
 {% highlight php %}
 // other values above
-{{ name | upcase }}_KEY=yourkeyfortheservice
-{{ name | upcase }}_SECRET=yoursecretfortheservice
-{{ name | upcase }}_REDIRECT_URI=https://example.com/login {% if extra_env_lines != empty %} {% for line in extra_env_lines %}
-{{ name | upcase }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
+{{ provider_key }}_KEY=yourkeyfortheservice
+{{ provider_key }}_SECRET=yoursecretfortheservice
+{{ provider_key }}_REDIRECT_URI=https://example.com/login {% if extra_env_lines != empty %} {% for line in extra_env_lines %}
+{{ provider_key }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
 {% endhighlight %}

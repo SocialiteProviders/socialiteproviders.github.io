@@ -11,6 +11,14 @@
     {% endif%}
 {% endfor %}
 
+{% assign remove = '. +' | split: ' ' %}
+{% assign provider_key = name %}
+{% for char in remove %}
+   {% assign provider_key = provider_key | remove: char %}
+{% endfor %}
+
+{% assign provider_key = provider_key | upcase %}
+
 {% include provider/_contents.md %}
 
 ## Installation
