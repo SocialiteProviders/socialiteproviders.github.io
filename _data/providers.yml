@@ -1,473 +1,411 @@
-#-------------------------------
-# List of available Providers
-
-list:
-- {
-    name: '23andme',
-    repo: 'https://github.com/SocialiteProviders/23andme',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: '37signals',
-    repo: 'https://github.com/SocialiteProviders/37Signals',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: '500px',
-    repo: 'https://github.com/SocialiteProviders/500px',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'AngelList',
-    repo: 'https://github.com/SocialiteProviders/AngelList',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'App.net',
-    repo: 'https://github.com/SocialiteProviders/AppNet',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Asana',
-    repo: 'https://github.com/SocialiteProviders/Asana',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Bit.ly',
-    repo: 'https://github.com/SocialiteProviders/Bit.ly',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Box',
-    repo: 'https://github.com/SocialiteProviders/Box',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Buffer',
-    repo: 'https://github.com/SocialiteProviders/Buffer',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'CampaignMonitor',
-    repo: 'https://github.com/SocialiteProviders/CampaignMonitor',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Cheddar',
-    repo: 'https://github.com/SocialiteProviders/Cheddar',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Coinbase',
-    repo: 'https://github.com/SocialiteProviders/Coinbase',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'ConstantContact',
-    repo: 'https://github.com/SocialiteProviders/ConstantContact',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Dailymile',
-    repo: 'https://github.com/SocialiteProviders/Dailymile',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Dailymotion',
-    repo: 'https://github.com/SocialiteProviders/Dailymotion',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Deezer',
-    repo: 'https://github.com/SocialiteProviders/Deezer',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'deviantART',
-    repo: 'https://github.com/SocialiteProviders/deviantART',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'DigitalOcean',
-    repo: 'https://github.com/SocialiteProviders/DigitalOcean',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Disqus',
-    repo: 'https://github.com/SocialiteProviders/Disqus',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Dribbble',
-    repo: 'https://github.com/SocialiteProviders/Dribbble',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Dropbox',
-    repo: 'https://github.com/SocialiteProviders/Dropbox',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Eventbrite',
-    repo: 'https://github.com/SocialiteProviders/Eventbrite',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Everyplay',
-    repo: 'https://github.com/SocialiteProviders/Everyplay',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'EyeEm',
-    repo: 'https://github.com/SocialiteProviders/EyeEm',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Fitbit',
-    repo: 'https://github.com/SocialiteProviders/Fitbit',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Flickr',
-    repo: 'https://github.com/SocialiteProviders/Flickr',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Foursquare',
-    repo: 'https://github.com/SocialiteProviders/Foursquare',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Goodreads',
-    repo: 'https://github.com/SocialiteProviders/Goodreads',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Google+',
-    repo: 'https://github.com/SocialiteProviders/Google-Plus',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Heroku',
-    repo: 'https://github.com/SocialiteProviders/Heroku',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Human API',
-    repo: 'https://github.com/SocialiteProviders/Human-API',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Imgur',
-    repo: 'https://github.com/SocialiteProviders/Imgur',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Instagram',
-    repo: 'https://github.com/SocialiteProviders/Instagram',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Jawbone',
-    repo: 'https://github.com/SocialiteProviders/Jawbone',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'LinkedIn',
-    repo: 'https://github.com/SocialiteProviders/LinkedIn',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'MailChimp',
-    repo: 'https://github.com/SocialiteProviders/MailChimp',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Meetup',
-    repo: 'https://github.com/SocialiteProviders/Meetup',
-    maintainer: 'AndyWendt',
-    maintainer_profile: 'https://github.com/AndyWendt'
-}
-
-- {
-    name: 'Microsoft Live',
-    repo: 'https://github.com/SocialiteProviders/Microsoft-Live',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Mixcloud',
-    repo: 'https://github.com/SocialiteProviders/Mixcloud',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Paymill',
-    repo: 'https://github.com/SocialiteProviders/Paymill',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'PayPal',
-    repo: 'https://github.com/SocialiteProviders/PayPal',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'PayPal Sandbox'                                       ,
-    repo: 'https://github.com/SocialiteProviders/PayPal-Sandbox' ,
-    maintainer: 'DraperStudio'                                   ,
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Podio',
-    repo: 'https://github.com/SocialiteProviders/Podio',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Pushbullet',
-    repo: 'https://github.com/SocialiteProviders/Pushbullet',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Rdio',
-    repo: 'https://github.com/SocialiteProviders/Rdio',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Readability',
-    repo: 'https://github.com/SocialiteProviders/Readability',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Reddit',
-    repo: 'https://github.com/SocialiteProviders/Reddit',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'RunKeeper',
-    repo: 'https://github.com/SocialiteProviders/RunKeeper',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Slack',
-    repo: 'https://github.com/SocialiteProviders/Slack',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'SoundCloud',
-    repo: 'https://github.com/SocialiteProviders/SoundCloud',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Spotify',
-    repo: 'https://github.com/SocialiteProviders/Spotify',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'StackExchange',
-    repo: 'https://github.com/SocialiteProviders/StackExchange',
-    maintainer: 'AndyWendt',
-    maintainer_profile: 'https://github.com/AndyWendt'
-}
-
-- {
-    name: 'StockTwits',
-    repo: 'https://github.com/SocialiteProviders/StockTwits',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Strava',
-    repo: 'https://github.com/SocialiteProviders/Strava',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Stripe',
-    repo: 'https://github.com/SocialiteProviders/Stripe',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Trello',
-    repo: 'https://github.com/SocialiteProviders/Trello',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Tumblr',
-    repo: 'https://github.com/SocialiteProviders/Tumblr',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Twitch',
-    repo: 'https://github.com/SocialiteProviders/Twitch',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Uber',
-    repo: 'https://github.com/SocialiteProviders/Uber',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Vimeo',
-    repo: 'https://github.com/SocialiteProviders/Vimeo',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'VKontakte',
-    repo: 'https://github.com/SocialiteProviders/VKontakte',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'WordPress',
-    repo: 'https://github.com/SocialiteProviders/WordPress',
-    maintainer: 'AndyWendt',
-    maintainer_profile: 'https://github.com/AndyWendt'
-}
-
-- {
-    name: 'Xing',
-    repo: 'https://github.com/SocialiteProviders/Xing',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Yammer',
-    repo: 'https://github.com/SocialiteProviders/Yammer',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Yandex',
-    repo: 'https://github.com/SocialiteProviders/Yandex',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'YouTube',
-    repo: 'https://github.com/SocialiteProviders/YouTube',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
-
-- {
-    name: 'Zendesk',
-    repo: 'https://github.com/SocialiteProviders/Zendesk',
-    maintainer: 'DraperStudio',
-    maintainer_profile: 'https://github.com/DraperStudio'
-}
+- name: '23andme'
+  repo: 'https://github.com/SocialiteProviders/23andme'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/23andme'
+  listener: 'SocialiteProviders\TwentyThreeAndMe\TwentyThreeAndMeExtendSocialite@handle'
+#  extra_service_lines:
+#    - key: 'test'
+#      value: 'testing'
+#  extra_env_lines:
+#    - key: 'test'
+#      value: 'testing'
+
+- name: '37signals'
+  repo: 'https://github.com/SocialiteProviders/37Signals'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: socialiteproviders/37signals
+  listener: 'SocialiteProviders\ThirtySevenSignals\ThirtySevenSignalsExtendSocialite@handle'
+
+
+- name: '500px'
+  repo: 'https://github.com/SocialiteProviders/500px'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'AngelList'
+  repo: 'https://github.com/SocialiteProviders/AngelList'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'App.net'
+  repo: 'https://github.com/SocialiteProviders/AppNet'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Asana'
+  repo: 'https://github.com/SocialiteProviders/Asana'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Bit.ly'
+  repo: 'https://github.com/SocialiteProviders/Bit.ly'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Box'
+  repo: 'https://github.com/SocialiteProviders/Box'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Buffer'
+  repo: 'https://github.com/SocialiteProviders/Buffer'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'CampaignMonitor'
+  repo: 'https://github.com/SocialiteProviders/CampaignMonitor'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Cheddar'
+  repo: 'https://github.com/SocialiteProviders/Cheddar'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Coinbase'
+  repo: 'https://github.com/SocialiteProviders/Coinbase'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'ConstantContact'
+  repo: 'https://github.com/SocialiteProviders/ConstantContact'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Dailymile'
+  repo: 'https://github.com/SocialiteProviders/Dailymile'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Dailymotion'
+  repo: 'https://github.com/SocialiteProviders/Dailymotion'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Deezer'
+  repo: 'https://github.com/SocialiteProviders/Deezer'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'deviantART'
+  repo: 'https://github.com/SocialiteProviders/deviantART'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'DigitalOcean'
+  repo: 'https://github.com/SocialiteProviders/DigitalOcean'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Disqus'
+  repo: 'https://github.com/SocialiteProviders/Disqus'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Dribbble'
+  repo: 'https://github.com/SocialiteProviders/Dribbble'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Dropbox'
+  repo: 'https://github.com/SocialiteProviders/Dropbox'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Eventbrite'
+  repo: 'https://github.com/SocialiteProviders/Eventbrite'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Everyplay'
+  repo: 'https://github.com/SocialiteProviders/Everyplay'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'EyeEm'
+  repo: 'https://github.com/SocialiteProviders/EyeEm'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Fitbit'
+  repo: 'https://github.com/SocialiteProviders/Fitbit'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Flickr'
+  repo: 'https://github.com/SocialiteProviders/Flickr'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Foursquare'
+  repo: 'https://github.com/SocialiteProviders/Foursquare'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Goodreads'
+  repo: 'https://github.com/SocialiteProviders/Goodreads'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Google+'
+  repo: 'https://github.com/SocialiteProviders/Google-Plus'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Heroku'
+  repo: 'https://github.com/SocialiteProviders/Heroku'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Human API'
+  repo: 'https://github.com/SocialiteProviders/Human-API'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Imgur'
+  repo: 'https://github.com/SocialiteProviders/Imgur'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Instagram'
+  repo: 'https://github.com/SocialiteProviders/Instagram'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Jawbone'
+  repo: 'https://github.com/SocialiteProviders/Jawbone'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'LinkedIn'
+  repo: 'https://github.com/SocialiteProviders/LinkedIn'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'MailChimp'
+  repo: 'https://github.com/SocialiteProviders/MailChimp'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Meetup'
+  repo: 'https://github.com/SocialiteProviders/Meetup'
+  maintainer: 'AndyWendt'
+  maintainer_profile: 'https://github.com/AndyWendt'
+
+
+- name: 'Microsoft Live'
+  repo: 'https://github.com/SocialiteProviders/Microsoft-Live'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Mixcloud'
+  repo: 'https://github.com/SocialiteProviders/Mixcloud'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Paymill'
+  repo: 'https://github.com/SocialiteProviders/Paymill'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'PayPal'
+  repo: 'https://github.com/SocialiteProviders/PayPal'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'PayPal Sandbox'                                       
+  repo: 'https://github.com/SocialiteProviders/PayPal-Sandbox' 
+  maintainer: 'DraperStudio'                                   
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Podio'
+  repo: 'https://github.com/SocialiteProviders/Podio'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Pushbullet'
+  repo: 'https://github.com/SocialiteProviders/Pushbullet'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Rdio'
+  repo: 'https://github.com/SocialiteProviders/Rdio'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Readability'
+  repo: 'https://github.com/SocialiteProviders/Readability'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Reddit'
+  repo: 'https://github.com/SocialiteProviders/Reddit'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'RunKeeper'
+  repo: 'https://github.com/SocialiteProviders/RunKeeper'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Slack'
+  repo: 'https://github.com/SocialiteProviders/Slack'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'SoundCloud'
+  repo: 'https://github.com/SocialiteProviders/SoundCloud'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Spotify'
+  repo: 'https://github.com/SocialiteProviders/Spotify'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'StackExchange'
+  repo: 'https://github.com/SocialiteProviders/StackExchange'
+  maintainer: 'AndyWendt'
+  maintainer_profile: 'https://github.com/AndyWendt'
+
+
+- name: 'StockTwits'
+  repo: 'https://github.com/SocialiteProviders/StockTwits'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Strava'
+  repo: 'https://github.com/SocialiteProviders/Strava'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Stripe'
+  repo: 'https://github.com/SocialiteProviders/Stripe'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Trello'
+  repo: 'https://github.com/SocialiteProviders/Trello'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Tumblr'
+  repo: 'https://github.com/SocialiteProviders/Tumblr'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Twitch'
+  repo: 'https://github.com/SocialiteProviders/Twitch'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Uber'
+  repo: 'https://github.com/SocialiteProviders/Uber'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Vimeo'
+  repo: 'https://github.com/SocialiteProviders/Vimeo'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'VKontakte'
+  repo: 'https://github.com/SocialiteProviders/VKontakte'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'WordPress'
+  repo: 'https://github.com/SocialiteProviders/WordPress'
+  maintainer: 'AndyWendt'
+  maintainer_profile: 'https://github.com/AndyWendt'
+
+
+- name: 'Xing'
+  repo: 'https://github.com/SocialiteProviders/Xing'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Yammer'
+  repo: 'https://github.com/SocialiteProviders/Yammer'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Yandex'
+  repo: 'https://github.com/SocialiteProviders/Yandex'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'YouTube'
+  repo: 'https://github.com/SocialiteProviders/YouTube'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'Zendesk'
+  repo: 'https://github.com/SocialiteProviders/Zendesk'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
 
