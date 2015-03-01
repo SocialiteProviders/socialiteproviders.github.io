@@ -11,7 +11,7 @@
 #    - key: 'test'
 #      value: 'testing'
 
-- name: '37signals'
+- name: '37Signals'
   repo: 'https://github.com/SocialiteProviders/37Signals'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
