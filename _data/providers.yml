@@ -217,7 +217,7 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/foursquare'
   listener: 'SocialiteProviders\Foursquare\FoursquareExtendSocialite@handle'
-  
+
 
 - name: 'Goodreads'
   repo: 'https://github.com/SocialiteProviders/Goodreads'
@@ -307,9 +307,9 @@
   maintainer_profile: 'https://github.com/DraperStudio'
 
 
-- name: 'PayPal Sandbox'                                       
-  repo: 'https://github.com/SocialiteProviders/PayPal-Sandbox' 
-  maintainer: 'DraperStudio'                                   
+- name: 'PayPal Sandbox'
+  repo: 'https://github.com/SocialiteProviders/PayPal-Sandbox'
+  maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
 
 
@@ -435,6 +435,12 @@
 
 - name: 'Xing'
   repo: 'https://github.com/SocialiteProviders/Xing'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+
+
+- name: 'xREL'
+  repo: 'https://github.com/SocialiteProviders/xREL'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
 
