@@ -1,11 +1,68 @@
 <section>
 
-  <h2 id="contribute">Contribute</h2>
+<h2 id="contribute">Contribute</h2>
+    
+    <h3>Creating a Provider</h3>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima enim eos alias harum dignissimos, ea asperiores dolor ab, quaerat in, aut reiciendis id nostrum quidem molestiae ipsa? Possimus, labore.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima enim eos alias harum dignissimos, ea asperiores dolor ab, quaerat in, aut reiciendis id nostrum quidem molestiae ipsa? Possimus, labore.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima enim eos alias harum dignissimos, ea asperiores dolor ab, quaerat in, aut reiciendis id nostrum quidem molestiae ipsa? Possimus, labore.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima enim eos alias harum dignissimos, ea asperiores dolor ab, quaerat in, aut reiciendis id nostrum quidem molestiae ipsa? Possimus, labore.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga minima enim eos alias harum dignissimos, ea asperiores dolor ab, quaerat in, aut reiciendis id nostrum quidem molestiae ipsa? Possimus, labore.</p>
+        <h4>To create a provider package</h4>
+            <ol>
+                <li>Create the provider class</li>
+                <li>Create a listener/handler</li>
+                <li>Create a composer.json file and add <em>socialiteproviders/manager</em> (<a href="https://github.com/SocialiteProviders/Manager">See the manager package.</a>) in the "require" section.</li>
+                <li>If using OAuth1 you need to also create a server class.</li>
+            </ol>
+            <p>Look at the already created <a href="#providers">providers</a> and the <a href="https://github.com/SocialiteProviders/Manager">Manager</a> package for inspiration.</p>
 
+
+        <h4>Submitting a new provider</h4>
+            <p>Send new provider pull requests to the <a href="https://github.com/SocialiteProviders/NewProvider">NewProvider</a> repo.</p>
+
+        <h4>Creating a handler</h4>
+            <p>Below is an example handler.  You need to add this full class name to the `listen[]` in the `EventServiceProvider`.</p>
+
+            <ol>
+                <li><a href="http://laravel.com/docs/5.0/events">See also the Laravel docs about events</a></li>
+                <li>`providername` is the name of the provider such as `meetup`.</li>
+                <li>You will need to change your the namespacing and class names of course.</li>
+            </ol>
+
+{% highlight php startinline=true %}
+namespace Your\Name\Space;
+
+use SocialiteProviders\Manager\SocialiteWasCalled;
+
+class ProviderNameExtendSocialite
+{
+    public function handle(SocialiteWasCalled $socialiteWasCalled)
+    {
+        $socialiteWasCalled->extendSocialite('providername', 'Your\Name\Space\ProviderName');
+    }
+}
+{% endhighlight %}
+
+
+        <h4>Resources</h4>
+            <ul>
+                <li><a href="https://medium.com/@morrislaptop/adding-auth-providers-to-laravel-socialite-ca0335929e42">See this article on Medium</a> about creating a new provider</li>
+                <li><a href="http://laravel.com/docs/5.0/events">Laravel docs on events</a> </li>
+            </ul>
+
+
+    <h3>Overriding a Built-in Provider</h3>
+
+    You can easily override a built-in laravel/socialite provider by creating a new provider with exactly the same name (i.e. 'facebook').
+
+
+    
+    <h3>Tests</h3>
+    
+    <p>If we have tests in the repo (currently and foreseeably only the (<a href="https://github.com/SocialiteProviders/Manager">Manager</a> package)
+    you need to have tests cover any changes submitted in a pull request.  We currently use PHPUnit and Mockery for our test suite.</p>
+
+
+
+    <h3>Style</h3>
+    
+    <p>Coming soon!</p>
 </section>
+
