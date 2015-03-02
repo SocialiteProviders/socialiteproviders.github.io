@@ -22,3 +22,8 @@
 {{ provider_key }}_REDIRECT_URI=https://example.com/login {% if extra_env_lines != empty %} {% for line in extra_env_lines %}
 {{ provider_key }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
 {% endhighlight %}
+
+
+#### Reference
+
+* [Laravel docs on configuration](http://laravel.com/docs/master/configuration)
