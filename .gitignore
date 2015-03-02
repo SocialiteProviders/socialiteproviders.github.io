@@ -5,3 +5,4 @@
 *.css.map
 .idea
 _site
+Gemfile.lock
