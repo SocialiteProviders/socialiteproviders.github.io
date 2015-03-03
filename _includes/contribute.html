@@ -5,14 +5,15 @@
     <h3>Creating a Provider</h3>
 
         <h4>To create a provider package</h4>
-            <ol>
+            <ul>
                 <li>Create the provider class</li>
                 <li>Create a listener/handler</li>
                 <li>Create a composer.json file and add <em>socialiteproviders/manager</em> (<a href="https://github.com/SocialiteProviders/Manager">See the manager package.</a>) in the "require" section.</li>
                 <li>If using OAuth1 you need to also create a server class.</li>
-            </ol>
+            </ul>
+            <p>To speed up the creation of your provider you can use the <a href="https://github.com/SocialiteProviders/Generators">generator</a>.</p>
             <p>Look at the already created <a href="#providers">providers</a> and the <a href="https://github.com/SocialiteProviders/Manager">Manager</a> package for inspiration.</p>
-
+        
 
         <h4>Submitting a new provider</h4>
             <p>Send new provider pull requests to the <a href="https://github.com/SocialiteProviders/NewProvider">NewProvider</a> repo.</p>
@@ -63,6 +64,6 @@ class ProviderNameExtendSocialite
 
     <h3>Style</h3>
     
-    <p>Coming soon!</p>
+    <p>Run PHP-CS-Fixer on your machine and put a .styleci.yml into the repository with level:symfony to make sure that pull requests and merges follow a valid</p>
 </section>
 
