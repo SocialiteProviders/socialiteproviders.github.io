@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: MailChimp
 permalink: "/providers/mailchimp/"
 ---

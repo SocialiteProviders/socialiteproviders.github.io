@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Zendesk
 permalink: "/providers/zendesk/"
 ---
