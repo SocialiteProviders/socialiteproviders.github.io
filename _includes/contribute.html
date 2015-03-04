@@ -19,12 +19,12 @@
             <p>Send new provider pull requests to the <a href="https://github.com/SocialiteProviders/NewProvider">NewProvider</a> repo.</p>
 
         <h4>Creating a handler</h4>
-            <p>Below is an example handler.  You need to add this full class name to the `listen[]` in the `EventServiceProvider`.</p>
+            <p>Below is an example handler. You need to add the fully qualified class name to the `listen[]` in the `EventServiceProvider`.</p>
 
             <ol>
                 <li><a href="http://laravel.com/docs/5.0/events">See also the Laravel docs about events</a></li>
                 <li>`providername` is the name of the provider such as `meetup`.</li>
-                <li>You will need to change your the namespacing and class names of course.</li>
+                <li>You will need to change the namespaces to match your vendor and package name.</li>
             </ol>
 
 {% highlight php startinline=true %}
