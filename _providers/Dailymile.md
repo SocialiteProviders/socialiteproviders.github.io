@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Dailymile
 permalink: "/providers/dailymile/"
 ---

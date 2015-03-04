@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Paymill
 permalink: "/providers/paymill/"
 ---

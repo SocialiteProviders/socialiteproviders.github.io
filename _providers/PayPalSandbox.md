@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: PayPal Sandbox
 permalink: "/providers/paypal-sandbox/"
 ---

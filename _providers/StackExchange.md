@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: StackExchange
 permalink: "/providers/stackexchange/"
 ---

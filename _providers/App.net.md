@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: App.net
 permalink: "/providers/app.net/"
 ---
