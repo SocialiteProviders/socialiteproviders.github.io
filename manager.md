@@ -10,18 +10,18 @@ layout: default
   - [Benefits](#benefits)
 - [Available Providers](#available-providers)
 - [Installation](#installation)
-  - [1. Composer](#1-composer)
-  - [2. Service Provider](#2-service-provider)
-  - [3. Add the Event and Listeners](#3-add-the-event-and-listeners)
+  - [1. Composer](#composer)
+  - [2. Service Provider](#service-provider)
+  - [3. Add the Event and Listeners](#add-the-event-and-listeners)
     - [Reference](#reference)
-  - [4. Services Array and .env](#4-services-array-and-env)
+  - [4. Services Array and .env](#services-array-and-env)
     - [Reference](#reference-1)
 - [Usage](#usage)
     - [Reference](#reference-2)
 - [Creating a Handler](#creating-a-handler)
     - [Reference](#reference-3)
 - [Creating a Provider](#creating-a-provider)
-- [Overriding a Provider](#overriding-a-provider)
+- [Overriding a Provider](#overriding-a-built-in-provider)
 
 ## About
 
