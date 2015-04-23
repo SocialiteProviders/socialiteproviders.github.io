@@ -275,6 +275,14 @@
   listener: 'SocialiteProviders\Jawbone\JawboneExtendSocialite@handle'
 
 
+- name: 'Jira'
+  repo: 'https://github.com/SocialiteProviders/Jira'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/xdzeta'
+  package: 'socialiteproviders/jira'
+  listener: 'SocialiteProviders\Jira\JiraExtendSocialite@handle'
+
+
 - name: 'LinkedIn'
   repo: 'https://github.com/SocialiteProviders/LinkedIn'
   maintainer: 'DraperStudio'
@@ -482,6 +490,14 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/uber'
   listener: 'SocialiteProviders\Uber\UberExtendSocialite@handle'
+
+
+- name: 'VersionOne'
+  repo: 'https://github.com/SocialiteProviders/VersionOne'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/xdzeta'
+  package: 'socialiteproviders/versionone'
+  listener: 'SocialiteProviders\VersionOne\VersionOneExtendSocialite@handle'
 
 
 - name: 'Vimeo'
