@@ -171,6 +171,14 @@
   listener: 'SocialiteProviders\Dropbox\DropboxExtendSocialite@handle'
 
 
+- name: 'Envato'
+  repo: 'https://github.com/SocialiteProviders/Envato'
+  maintainer: 'dennisoderwald'
+  maintainer_profile: 'https://github.com/dennisoderwald'
+  package: 'socialiteproviders/envato'
+  listener: 'SocialiteProviders\Envato\EnvatoExtendSocialite@handle'
+
+
 - name: 'Eventbrite'
   repo: 'https://github.com/SocialiteProviders/Eventbrite'
   maintainer: 'DraperStudio'
@@ -277,7 +285,7 @@
 
 - name: 'Jira'
   repo: 'https://github.com/SocialiteProviders/Jira'
-  maintainer: 'DraperStudio'
+  maintainer: 'xdzeta'
   maintainer_profile: 'https://github.com/xdzeta'
   package: 'socialiteproviders/jira'
   listener: 'SocialiteProviders\Jira\JiraExtendSocialite@handle'
@@ -494,7 +502,7 @@
 
 - name: 'VersionOne'
   repo: 'https://github.com/SocialiteProviders/VersionOne'
-  maintainer: 'DraperStudio'
+  maintainer: 'xdzeta'
   maintainer_profile: 'https://github.com/xdzeta'
   package: 'socialiteproviders/versionone'
   listener: 'SocialiteProviders\VersionOne\VersionOneExtendSocialite@handle'
