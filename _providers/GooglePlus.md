@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Google+
-permalink: "/providers/google+/"
+permalink: "/providers/google/"
 ---
 # Google – OAuth2
 
