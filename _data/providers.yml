@@ -235,7 +235,7 @@
   listener: 'SocialiteProviders\Goodreads\GoodreadsExtendSocialite@handle'
 
 
-- name: 'Google'
+- name: 'Google+'
   repo: 'https://github.com/SocialiteProviders/Google-Plus'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
