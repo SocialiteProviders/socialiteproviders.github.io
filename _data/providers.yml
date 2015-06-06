@@ -370,6 +370,12 @@
   package: 'socialiteproviders/pushbullet'
   listener: 'SocialiteProviders\Pushbullet\PushbulletExtendSocialite@handle'
 
+- name: 'QQ'
+  repo: 'https://github.com/SocialiteProviders/QQ'
+  maintainer: 'runphp'
+  maintainer_profile: 'https://github.com/runphp'
+  package: 'socialiteproviders/qq'
+  listener: 'SocialiteProviders\QQ\QqExtendSocialite@handle'
 
 - name: 'Rdio'
   repo: 'https://github.com/SocialiteProviders/Rdio'
