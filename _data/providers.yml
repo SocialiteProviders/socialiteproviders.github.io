@@ -155,6 +155,14 @@
   listener: 'SocialiteProviders\Disqus\DisqusExtendSocialite@handle'
 
 
+- name: 'Douban'
+  repo: 'https://github.com/SocialiteProviders/Douban'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/douban'
+  listener: 'SocialiteProviders\Douban\DoubanExtendSocialite@handle'
+
+
 - name: 'Dribbble'
   repo: 'https://github.com/SocialiteProviders/Dribbble'
   maintainer: 'DraperStudio'
