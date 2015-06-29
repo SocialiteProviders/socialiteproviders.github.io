@@ -530,6 +530,14 @@
   listener: 'SocialiteProviders\VKontakte\VKontakteExtendSocialite@handle'
 
 
+- name: 'Weibo'
+  repo: 'https://github.com/SocialiteProviders/Weibo'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weibo'
+  listener: 'SocialiteProviders\Weibo\WeiboExtendSocialite@handle'
+
+
 - name: 'WordPress'
   repo: 'https://github.com/SocialiteProviders/WordPress'
   maintainer: 'AndyWendt'
