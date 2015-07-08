@@ -506,6 +506,14 @@
   listener: 'SocialiteProviders\Twitch\TwitchExtendSocialite@handle'
 
 
+- name: 'Twitter'
+  repo: 'https://github.com/SocialiteProviders/Twitter'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/twitter'
+  listener: 'SocialiteProviders\Twitter\TwitterExtendSocialite@handle'
+
+
 - name: 'Uber'
   repo: 'https://github.com/SocialiteProviders/Uber'
   maintainer: 'DraperStudio'
