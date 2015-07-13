@@ -562,7 +562,7 @@
   listener: 'SocialiteProviders\Weixin\WeixinExtendSocialite@handle'
 
 
-- name: 'WeixinWeb'
+- name: 'Weixin Web'
   repo: 'https://github.com/SocialiteProviders/WeixinWeb'
   maintainer: 'xyxu'
   maintainer_profile: 'https://github.com/xyxu'
