@@ -554,6 +554,22 @@
   listener: 'SocialiteProviders\Weibo\WeiboExtendSocialite@handle'
 
 
+- name: 'Weixin'
+  repo: 'https://github.com/SocialiteProviders/Weixin'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weixin'
+  listener: 'SocialiteProviders\Weixin\WeixinExtendSocialite@handle'
+
+
+- name: 'WeixinWeb'
+  repo: 'https://github.com/SocialiteProviders/WeixinWeb'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weixin-web'
+  listener: 'SocialiteProviders\WeixinWeb\WeixinWebExtendSocialite@handle'
+
+
 - name: 'WordPress'
   repo: 'https://github.com/SocialiteProviders/WordPress'
   maintainer: 'AndyWendt'
