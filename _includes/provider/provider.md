@@ -8,6 +8,11 @@
         {% assign maintainer_profile = provider.maintainer_profile %}
         {% assign package = provider.package %}
         {% assign listener = provider.listener %}
+
+        {% if provider.socialite_name %}
+            {% assign socialite_name = provider.socialite_name %}
+        {% endif %}
+
         {% assign extra_service_lines = provider.extra_service_lines %}
         {% assign extra_env_lines = provider.extra_env_lines %}
     {% endif%}

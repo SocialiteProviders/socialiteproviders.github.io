@@ -249,6 +249,7 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/google'
   listener: 'SocialiteProviders\Google\GoogleExtendSocialite@handle'
+  socialite_name: 'google'
 
 
 - name: 'Heroku'
@@ -329,6 +330,7 @@
   maintainer_profile: 'https://github.com/chrishemmings'
   package: 'socialiteproviders/microsoft-azure'
   listener: 'SocialiteProviders\Azure\AzureExtendSocialite@handle'
+  socialite_name: 'azure'
 
 
 - name: 'Microsoft Live'
@@ -337,6 +339,7 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/live'
   listener: 'SocialiteProviders\Live\LiveExtendSocialite@handle'
+  socialite_name: 'live'
 
 
 - name: 'Mixcloud'
