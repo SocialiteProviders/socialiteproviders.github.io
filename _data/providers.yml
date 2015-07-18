@@ -323,6 +323,14 @@
   listener: 'SocialiteProviders\Meetup\MeetupExtendSocialite@handle'
 
 
+- name: 'Microsoft Azure'
+  repo: 'https://github.com/SocialiteProviders/Microsoft-Azure'
+  maintainer: 'chrishemmings'
+  maintainer_profile: 'https://github.com/chrishemmings'
+  package: 'socialiteproviders/microsoft-azure'
+  listener: 'SocialiteProviders\Azure\AzureExtendSocialite@handle'
+
+
 - name: 'Microsoft Live'
   repo: 'https://github.com/SocialiteProviders/Microsoft-Live'
   maintainer: 'DraperStudio'
