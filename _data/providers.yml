@@ -107,6 +107,14 @@
   listener: 'SocialiteProviders\ConstantContact\ConstantContactExtendSocialite@handle'
 
 
+- name: 'Coursera'
+  repo: 'https://github.com/SocialiteProviders/Coursera'
+  maintainer: 'davetosh'
+  maintainer_profile: 'https://github.com/davetosh'
+  package: 'socialiteproviders/coursera'
+  listener: 'SocialiteProviders\Coursera\CourseraExtendSocialite@handle'
+
+
 - name: 'Dailymile'
   repo: 'https://github.com/SocialiteProviders/Dailymile'
   maintainer: 'DraperStudio'
