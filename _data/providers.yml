@@ -345,7 +345,7 @@
   repo: 'https://github.com/SocialiteProviders/Microsoft-Live'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
-  package: 'socialiteproviders/live'
+  package: 'socialiteproviders/microsoft-live'
   listener: 'SocialiteProviders\Live\LiveExtendSocialite@handle'
   socialite_name: 'live'
 
