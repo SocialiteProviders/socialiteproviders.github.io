@@ -582,11 +582,12 @@
 
 
 - name: 'Weixin Web'
-  repo: 'https://github.com/SocialiteProviders/WeixinWeb'
+  repo: 'https://github.com/SocialiteProviders/Weixin-Web'
   maintainer: 'xyxu'
   maintainer_profile: 'https://github.com/xyxu'
   package: 'socialiteproviders/weixin-web'
   listener: 'SocialiteProviders\WeixinWeb\WeixinWebExtendSocialite@handle'
+  socialite_name: 'weixinweb'
 
 
 - name: 'WordPress'
