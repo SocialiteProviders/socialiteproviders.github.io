@@ -11,9 +11,6 @@
 
         {% if provider.socialite_name %}
             {% assign socialite_name = provider.socialite_name %}
-        {% endif %}
-
-        {% if provider.socialite_name %}
             {% assign provider_key = provider.socialite_name | upcase %}
         {% else %}
             {% assign provider_key = name %}
