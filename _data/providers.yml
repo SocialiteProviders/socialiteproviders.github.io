@@ -380,6 +380,7 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/paypal_sandbox'
   listener: 'SocialiteProviders\PayPalSandbox\PayPalSandboxExtendSocialite@handle'
+  socialite_name: 'paypal_sandbox'
 
 
 - name: 'Podio'
