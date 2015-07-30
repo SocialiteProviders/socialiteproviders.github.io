@@ -3,10 +3,12 @@
 #### Add to `config/services.php`.
 
 {% highlight php %}
-'{{ provider_key | downcase }}' => [
+{% if socialite_name %}
+'{{ socialite_name }}' => [{% else %}
+'{{ provider_key | downcase }}' => [{% endif %}
     'client_id' => env('{{ provider_key }}_KEY'),
     'client_secret' => env('{{ provider_key }}_SECRET'),
-    'redirect' => env('{{ provider_key }}_REDIRECT_URI'), {% if extra_service_lines != empty %} {% for line in extra_service_lines %}    
+    'redirect' => env('{{ provider_key }}_REDIRECT_URI'), {% if extra_service_lines != empty %} {% for line in extra_service_lines %}
     '{{ line.key | downcase }}' => env('{{ provider_key }}_{{ line.value | upcase }}'), {% endfor %}
 ], {% else %}
 ],
