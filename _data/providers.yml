@@ -403,7 +403,7 @@
   maintainer: 'runphp'
   maintainer_profile: 'https://github.com/runphp'
   package: 'socialiteproviders/qq'
-  listener: 'SocialiteProviders\QQ\QqExtendSocialite@handle'
+  listener: 'SocialiteProviders\Qq\QqExtendSocialite@handle'
 
 - name: 'Rdio'
   repo: 'https://github.com/SocialiteProviders/Rdio'
