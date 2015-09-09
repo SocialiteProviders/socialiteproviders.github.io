@@ -358,6 +358,14 @@
   listener: 'SocialiteProviders\Mixcloud\MixcloudExtendSocialite@handle'
 
 
+- name: 'Moves'
+  repo: 'https://github.com/SocialiteProviders/Moves'
+  maintainer: 'bryceadams'
+  maintainer_profile: 'https://github.com/bryceadams'
+  package: 'socialiteproviders/moves'
+  listener: 'SocialiteProviders\Moves\MovesExtendSocialite@handle'
+
+
 - name: 'Paymill'
   repo: 'https://github.com/SocialiteProviders/Paymill'
   maintainer: 'DraperStudio'
