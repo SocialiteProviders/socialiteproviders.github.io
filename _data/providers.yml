@@ -550,6 +550,14 @@
   listener: 'SocialiteProviders\Uber\UberExtendSocialite@handle'
 
 
+- name: 'Venmo'
+  repo: 'https://github.com/SocialiteProviders/Venmo'
+  maintainer: 'dabernathy89'
+  maintainer_profile: 'https://github.com/dabernathy89'
+  package: 'socialiteproviders/venmo'
+  listener: 'SocialiteProviders\Venmo\VenmoExtendSocialite@handle'
+
+
 - name: 'VersionOne'
   repo: 'https://github.com/SocialiteProviders/VersionOne'
   maintainer: 'xdzeta'
