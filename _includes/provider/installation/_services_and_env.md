@@ -26,4 +26,4 @@
 
 #### Reference
 
-* [Laravel docs on configuration](http://laravel.com/docs/master/configuration)
+* [Laravel docs on configuration](http://laravel.com/docs/master#configuration)
