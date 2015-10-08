@@ -308,6 +308,14 @@
   listener: 'SocialiteProviders\Jira\JiraExtendSocialite@handle'
 
 
+- name: 'Kakao'
+  repo: 'https://github.com/SocialiteProviders/Kakao'
+  maintainer: 'visualplus'
+  maintainer_profile: 'https://github.com/visualplus'
+  package: 'socialiteproviders/kakao'
+  listener: 'SocialiteProviders\Kakao\KakaoExtendSocialite@handle'
+
+
 - name: 'LinkedIn'
   repo: 'https://github.com/SocialiteProviders/LinkedIn'
   maintainer: 'DraperStudio'
@@ -364,6 +372,14 @@
   maintainer_profile: 'https://github.com/bryceadams'
   package: 'socialiteproviders/moves'
   listener: 'SocialiteProviders\Moves\MovesExtendSocialite@handle'
+
+
+- name: 'Naver'
+  repo: 'https://github.com/SocialiteProviders/Naver'
+  maintainer: 'visualplus'
+  maintainer_profile: 'https://github.com/visualplus'
+  package: 'socialiteproviders/naver'
+  listener: 'SocialiteProviders\Naver\NaverExtendSocialite@handle'
 
 
 - name: 'Paymill'
