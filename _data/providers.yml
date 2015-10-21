@@ -647,6 +647,14 @@
   listener: 'SocialiteProviders\xREL\xRELExtendSocialite@handle'
 
 
+- name: 'Yahoo'
+  repo: 'https://github.com/SocialiteProviders/Yahoo'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/yahoo'
+  listener: 'SocialiteProviders\Yahoo\YahooExtendSocialite@handle'
+
+
 - name: 'Yammer'
   repo: 'https://github.com/SocialiteProviders/Yammer'
   maintainer: 'DraperStudio'
