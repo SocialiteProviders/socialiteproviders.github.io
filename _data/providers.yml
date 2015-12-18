@@ -195,6 +195,14 @@
   listener: 'SocialiteProviders\Envato\EnvatoExtendSocialite@handle'
 
 
+- name: 'Etsy'
+  repo: 'https://github.com/SocialiteProviders/Etsy'
+  maintainer: 'felipemarques'
+  maintainer_profile: 'https://github.com/felipemarques'
+  package: 'socialiteproviders/Etsy'
+  listener: 'SocialiteProviders\Etsy\EtsyExtendSocialite@handle'
+
+
 - name: 'Eventbrite'
   repo: 'https://github.com/SocialiteProviders/Eventbrite'
   maintainer: 'DraperStudio'
@@ -330,6 +338,14 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/mailchimp'
   listener: 'SocialiteProviders\MailChimp\MailChimpExtendSocialite@handle'
+
+
+- name: 'Medium'
+  repo: 'https://github.com/SocialiteProviders/Medium'
+  maintainer: 'barooney'
+  maintainer_profile: 'https://github.com/barooney'
+  package: 'socialiteproviders/Medium'
+  listener: 'SocialiteProviders\Medium\MediumExtendSocialite@handle'
 
 
 - name: 'Meetup'
