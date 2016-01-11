@@ -10,7 +10,7 @@ For example:
 'providers' => [
     // a whole bunch of providers
     // remove 'Laravel\Socialite\SocialiteServiceProvider',
-    'SocialiteProviders\Manager\ServiceProvider', // add
+    SocialiteProviders\Manager\ServiceProvider::class, // add
 ];
 {% endhighlight %}
 

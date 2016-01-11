@@ -16,7 +16,7 @@
 #### Append provider values to your `.env` file
 
 {% highlight php %}
-// other values above
+// other environment values will be in this file...
 {{ provider_key }}_KEY=yourkeyfortheservice
 {{ provider_key }}_SECRET=yoursecretfortheservice
 {{ provider_key }}_REDIRECT_URI=https://example.com/login {% if extra_env_lines != empty %} {% for line in extra_env_lines %}
