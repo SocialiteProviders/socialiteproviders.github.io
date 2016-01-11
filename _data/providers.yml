@@ -476,6 +476,12 @@
   package: 'socialiteproviders/runkeeper'
   listener: 'SocialiteProviders\RunKeeper\RunKeeperExtendSocialite@handle'
 
+- name: 'SalesForce'
+  repo: 'https://github.com/SocialiteProviders/SalesForce'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/AndyWendt'
+  package: 'socialiteproviders/salesforce'
+  listener: 'SocialiteProviders\SalesForce\SalesForceExtendSocialite@handle'
 
 - name: 'Slack'
   repo: 'https://github.com/SocialiteProviders/Slack'
