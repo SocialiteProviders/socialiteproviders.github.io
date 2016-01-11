@@ -68,7 +68,7 @@ For example:
 
 ### 3. Add the Event and Listeners
 
-* Add `SocialiteProviders\Manager\SocialiteWasCalled` to your `listen[]` array  in `<app_name>/Providers/EventServiceProvider`.
+* Add `SocialiteProviders\Manager\SocialiteWasCalled` to your `listen[]` array  in `app/Providers/EventServiceProvider`.
 
 * Add your listeners (i.e. the ones from the providers) to the `SocialiteProviders\Manager\SocialiteWasCalled[]` that you just created.
 
