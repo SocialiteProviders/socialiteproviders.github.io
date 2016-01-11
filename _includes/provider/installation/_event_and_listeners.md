@@ -17,7 +17,7 @@ For example:
  * @var array
  */
 protected $listen = [
-    `SocialiteProviders\Manager\SocialiteWasCalled` => [
+    'SocialiteProviders\Manager\SocialiteWasCalled' => [
         // add your listeners (aka providers) here
     ],
 ];
