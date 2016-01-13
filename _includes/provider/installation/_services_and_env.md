@@ -23,14 +23,16 @@
 {{ provider_key }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
 {% endhighlight %}
 
+
 ### Dynamically Passing a Config
 
 You can dynamically pass a config by using:
-```
+
+{% highlight php %}
 $key = 'SocialiteProviders.config.{{ provider_key | downcase }}';
 $config = new \SocialiteProviders\Manager\Config('key', 'secret', 'callbackUri');
 $this->app->instance($key, $config)
-```
+{% endhighlight %}
 
 **You must call this before you run any Socialite methods.**
 
