@@ -507,6 +507,14 @@
   listener: 'SocialiteProviders\SoundCloud\SoundCloudExtendSocialite@handle'
 
 
+- name: 'SharePoint'
+  repo: 'https://github.com/SocialiteProviders/SharePoint'
+  maintainer: 'kaiten65'
+  maintainer_profile: 'https://github.com/kaiten65'
+  package: 'socialiteproviders/sharepoint'
+  listener: 'SocialiteProviders\SharePoint\SharePointExtendSocialite@handle'
+
+
 - name: 'Spotify'
   repo: 'https://github.com/SocialiteProviders/Spotify'
   maintainer: 'DraperStudio'
