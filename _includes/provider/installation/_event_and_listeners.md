@@ -9,7 +9,7 @@
 * Note: You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
 
 For example:
- 
+
 {% highlight php startinline=true %}
 /**
  * The event handler mappings for the application.
@@ -18,6 +18,7 @@ For example:
  */
 protected $listen = [
     SocialiteProviders\Manager\SocialiteWasCalled::class => [
+        '{{ listener }}',
         // add your listeners (aka providers) here
     ],
 ];
