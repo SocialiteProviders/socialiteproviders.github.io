@@ -6,12 +6,12 @@
 
 For example: 
 
-{% highlight php startinline=true %}
+``` php
 'providers' => [
     // a whole bunch of providers
     // remove 'Laravel\Socialite\SocialiteServiceProvider',
     \SocialiteProviders\Manager\ServiceProvider::class, // add
 ];
-{% endhighlight %}
+```
 
 * Note: If you would like to use the Socialite Facade, you need to [install it.](http://laravel.com/docs/5.0/authentication#social-authentication)

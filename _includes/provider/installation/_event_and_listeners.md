@@ -10,7 +10,7 @@
 
 For example:
  
-{% highlight php startinline=true %}
+```php
 /**
  * The event handler mappings for the application.
  *
@@ -22,7 +22,7 @@ protected $listen = [
         '{{ listener }}',
     ],
 ];
-{% endhighlight %}
+```
 
 #### Reference
 

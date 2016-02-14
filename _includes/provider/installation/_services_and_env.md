@@ -15,13 +15,13 @@
 
 #### Append provider values to your `.env` file
 
-{% highlight php %}
+```php
 // other values above
 {{ provider_key }}_KEY=yourkeyfortheservice
 {{ provider_key }}_SECRET=yoursecretfortheservice
 {{ provider_key }}_REDIRECT_URI=https://example.com/login {% if extra_env_lines != empty %} {% for line in extra_env_lines %}
 {{ provider_key }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
-{% endhighlight %}
+```
 
 
 #### Reference
