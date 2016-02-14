@@ -4,6 +4,7 @@ github: [metadata]
 kramdown:
  input: GFM
  hard_wrap: false
+ syntax_highlighter: rouge
 gems:
  - jekyll-coffeescript
  - jekyll-paginate
