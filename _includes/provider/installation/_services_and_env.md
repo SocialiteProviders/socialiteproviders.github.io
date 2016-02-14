@@ -2,7 +2,7 @@
 
 #### Add to `config/services.php`.
 
-{% highlight php %}
+```php
 '{{ provider_key | downcase }}' => [
     'client_id' => env('{{ provider_key }}_KEY'),
     'client_secret' => env('{{ provider_key }}_SECRET'),
@@ -11,7 +11,7 @@
 ], {% else %}
 ],
 {% endif %}
-{% endhighlight %}
+```
 
 #### Append provider values to your `.env` file
 
