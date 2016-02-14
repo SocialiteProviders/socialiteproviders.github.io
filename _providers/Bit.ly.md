@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Bit.ly
 permalink: "/providers/bit.ly/"
 ---

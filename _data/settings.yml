@@ -9,7 +9,7 @@ description: A Collection of Providers for Laravel Socialite
 
 menu:
 - {name: About, url: '/#about'}
-- {name: Packages, url: '/#providers'}
+- {name: Providers, url: '/#providers'}
 - {name: Contribute, url: '/#contribute'}
 - {name: GitHub, url: 'https://github.com/SocialiteProviders'}
 - {name: Packagist, url: 'https://packagist.org/packages/socialiteproviders/'}

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Foursquare
 permalink: "/providers/foursquare/"
 ---

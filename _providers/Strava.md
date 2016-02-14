@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Strava
 permalink: "/providers/strava/"
 ---

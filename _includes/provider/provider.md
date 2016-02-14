@@ -8,6 +8,14 @@
         {% assign maintainer_profile = provider.maintainer_profile %}
         {% assign package = provider.package %}
         {% assign listener = provider.listener %}
+
+        {% if provider.socialite_name %}
+            {% assign socialite_name = provider.socialite_name %}
+            {% assign provider_key = provider.socialite_name | upcase %}
+        {% else %}
+            {% assign provider_key = name %}
+        {% endif %}
+
         {% assign extra_service_lines = provider.extra_service_lines %}
         {% assign extra_env_lines = provider.extra_env_lines %}
     {% endif%}
@@ -16,7 +24,7 @@
 {% comment %} Create the provider key by removing any special chars from the name and upcasing {% endcomment %}
 
 {% assign remove = '. +' | split: ' ' %}
-{% assign provider_key = name %}
+
 {% for char in remove %}
    {% assign provider_key = provider_key | remove: char %}
 {% endfor %}

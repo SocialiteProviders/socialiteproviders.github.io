@@ -107,6 +107,14 @@
   listener: 'SocialiteProviders\ConstantContact\ConstantContactExtendSocialite@handle'
 
 
+- name: 'Coursera'
+  repo: 'https://github.com/SocialiteProviders/Coursera'
+  maintainer: 'davetosh'
+  maintainer_profile: 'https://github.com/davetosh'
+  package: 'socialiteproviders/coursera'
+  listener: 'SocialiteProviders\Coursera\CourseraExtendSocialite@handle'
+
+
 - name: 'Dailymile'
   repo: 'https://github.com/SocialiteProviders/Dailymile'
   maintainer: 'DraperStudio'
@@ -155,6 +163,14 @@
   listener: 'SocialiteProviders\Disqus\DisqusExtendSocialite@handle'
 
 
+- name: 'Douban'
+  repo: 'https://github.com/SocialiteProviders/Douban'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/douban'
+  listener: 'SocialiteProviders\Douban\DoubanExtendSocialite@handle'
+
+
 - name: 'Dribbble'
   repo: 'https://github.com/SocialiteProviders/Dribbble'
   maintainer: 'DraperStudio'
@@ -169,6 +185,22 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/dropbox'
   listener: 'SocialiteProviders\Dropbox\DropboxExtendSocialite@handle'
+
+
+- name: 'Envato'
+  repo: 'https://github.com/SocialiteProviders/Envato'
+  maintainer: 'dennisoderwald'
+  maintainer_profile: 'https://github.com/dennisoderwald'
+  package: 'socialiteproviders/envato'
+  listener: 'SocialiteProviders\Envato\EnvatoExtendSocialite@handle'
+
+
+- name: 'Etsy'
+  repo: 'https://github.com/SocialiteProviders/Etsy'
+  maintainer: 'felipemarques'
+  maintainer_profile: 'https://github.com/felipemarques'
+  package: 'socialiteproviders/Etsy'
+  listener: 'SocialiteProviders\Etsy\EtsyExtendSocialite@handle'
 
 
 - name: 'Eventbrite'
@@ -233,6 +265,7 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/google'
   listener: 'SocialiteProviders\Google\GoogleExtendSocialite@handle'
+  socialite_name: 'google'
 
 
 - name: 'Heroku'
@@ -275,6 +308,22 @@
   listener: 'SocialiteProviders\Jawbone\JawboneExtendSocialite@handle'
 
 
+- name: 'Jira'
+  repo: 'https://github.com/SocialiteProviders/Jira'
+  maintainer: 'xdzeta'
+  maintainer_profile: 'https://github.com/xdzeta'
+  package: 'socialiteproviders/jira'
+  listener: 'SocialiteProviders\Jira\JiraExtendSocialite@handle'
+
+
+- name: 'Kakao'
+  repo: 'https://github.com/SocialiteProviders/Kakao'
+  maintainer: 'visualplus'
+  maintainer_profile: 'https://github.com/visualplus'
+  package: 'socialiteproviders/kakao'
+  listener: 'SocialiteProviders\Kakao\KakaoExtendSocialite@handle'
+
+
 - name: 'LinkedIn'
   repo: 'https://github.com/SocialiteProviders/LinkedIn'
   maintainer: 'DraperStudio'
@@ -291,6 +340,14 @@
   listener: 'SocialiteProviders\MailChimp\MailChimpExtendSocialite@handle'
 
 
+- name: 'Medium'
+  repo: 'https://github.com/SocialiteProviders/Medium'
+  maintainer: 'barooney'
+  maintainer_profile: 'https://github.com/barooney'
+  package: 'socialiteproviders/Medium'
+  listener: 'SocialiteProviders\Medium\MediumExtendSocialite@handle'
+
+
 - name: 'Meetup'
   repo: 'https://github.com/SocialiteProviders/Meetup'
   maintainer: 'AndyWendt'
@@ -299,12 +356,22 @@
   listener: 'SocialiteProviders\Meetup\MeetupExtendSocialite@handle'
 
 
+- name: 'Microsoft Azure'
+  repo: 'https://github.com/SocialiteProviders/Microsoft-Azure'
+  maintainer: 'chrishemmings'
+  maintainer_profile: 'https://github.com/chrishemmings'
+  package: 'socialiteproviders/microsoft-azure'
+  listener: 'SocialiteProviders\Azure\AzureExtendSocialite@handle'
+  socialite_name: 'azure'
+
+
 - name: 'Microsoft Live'
   repo: 'https://github.com/SocialiteProviders/Microsoft-Live'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
-  package: 'socialiteproviders/live'
+  package: 'socialiteproviders/microsoft-live'
   listener: 'SocialiteProviders\Live\LiveExtendSocialite@handle'
+  socialite_name: 'live'
 
 
 - name: 'Mixcloud'
@@ -313,6 +380,22 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/mixcloud'
   listener: 'SocialiteProviders\Mixcloud\MixcloudExtendSocialite@handle'
+
+
+- name: 'Moves'
+  repo: 'https://github.com/SocialiteProviders/Moves'
+  maintainer: 'bryceadams'
+  maintainer_profile: 'https://github.com/bryceadams'
+  package: 'socialiteproviders/moves'
+  listener: 'SocialiteProviders\Moves\MovesExtendSocialite@handle'
+
+
+- name: 'Naver'
+  repo: 'https://github.com/SocialiteProviders/Naver'
+  maintainer: 'visualplus'
+  maintainer_profile: 'https://github.com/visualplus'
+  package: 'socialiteproviders/naver'
+  listener: 'SocialiteProviders\Naver\NaverExtendSocialite@handle'
 
 
 - name: 'Paymill'
@@ -337,6 +420,15 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/paypal_sandbox'
   listener: 'SocialiteProviders\PayPalSandbox\PayPalSandboxExtendSocialite@handle'
+  socialite_name: 'paypal_sandbox'
+
+
+- name: 'Pinterest'
+  repo: 'https://github.com/SocialiteProviders/Pinterest'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/pinterest'
+  listener: 'SocialiteProviders\Pinterest\PinterestExtendSocialite@handle'
 
 
 - name: 'Podio'
@@ -354,6 +446,12 @@
   package: 'socialiteproviders/pushbullet'
   listener: 'SocialiteProviders\Pushbullet\PushbulletExtendSocialite@handle'
 
+- name: 'QQ'
+  repo: 'https://github.com/SocialiteProviders/QQ'
+  maintainer: 'runphp'
+  maintainer_profile: 'https://github.com/runphp'
+  package: 'socialiteproviders/qq'
+  listener: 'SocialiteProviders\Qq\QqExtendSocialite@handle'
 
 - name: 'Rdio'
   repo: 'https://github.com/SocialiteProviders/Rdio'
@@ -386,6 +484,12 @@
   package: 'socialiteproviders/runkeeper'
   listener: 'SocialiteProviders\RunKeeper\RunKeeperExtendSocialite@handle'
 
+- name: 'SalesForce'
+  repo: 'https://github.com/SocialiteProviders/SalesForce'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/AndyWendt'
+  package: 'socialiteproviders/salesforce'
+  listener: 'SocialiteProviders\SalesForce\SalesForceExtendSocialite@handle'
 
 - name: 'Slack'
   repo: 'https://github.com/SocialiteProviders/Slack'
@@ -401,6 +505,14 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/soundcloud'
   listener: 'SocialiteProviders\SoundCloud\SoundCloudExtendSocialite@handle'
+
+
+- name: 'SharePoint'
+  repo: 'https://github.com/SocialiteProviders/SharePoint'
+  maintainer: 'kaiten65'
+  maintainer_profile: 'https://github.com/kaiten65'
+  package: 'socialiteproviders/sharepoint'
+  listener: 'SocialiteProviders\SharePoint\SharePointExtendSocialite@handle'
 
 
 - name: 'Spotify'
@@ -476,12 +588,36 @@
   listener: 'SocialiteProviders\Twitch\TwitchExtendSocialite@handle'
 
 
+- name: 'Twitter'
+  repo: 'https://github.com/SocialiteProviders/Twitter'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/twitter'
+  listener: 'SocialiteProviders\Twitter\TwitterExtendSocialite@handle'
+
+
 - name: 'Uber'
   repo: 'https://github.com/SocialiteProviders/Uber'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/uber'
   listener: 'SocialiteProviders\Uber\UberExtendSocialite@handle'
+
+
+- name: 'Venmo'
+  repo: 'https://github.com/SocialiteProviders/Venmo'
+  maintainer: 'dabernathy89'
+  maintainer_profile: 'https://github.com/dabernathy89'
+  package: 'socialiteproviders/venmo'
+  listener: 'SocialiteProviders\Venmo\VenmoExtendSocialite@handle'
+
+
+- name: 'VersionOne'
+  repo: 'https://github.com/SocialiteProviders/VersionOne'
+  maintainer: 'xdzeta'
+  maintainer_profile: 'https://github.com/xdzeta'
+  package: 'socialiteproviders/versionone'
+  listener: 'SocialiteProviders\VersionOne\VersionOneExtendSocialite@handle'
 
 
 - name: 'Vimeo'
@@ -498,6 +634,31 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/vkontakte'
   listener: 'SocialiteProviders\VKontakte\VKontakteExtendSocialite@handle'
+
+
+- name: 'Weibo'
+  repo: 'https://github.com/SocialiteProviders/Weibo'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weibo'
+  listener: 'SocialiteProviders\Weibo\WeiboExtendSocialite@handle'
+
+
+- name: 'Weixin'
+  repo: 'https://github.com/SocialiteProviders/Weixin'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weixin'
+  listener: 'SocialiteProviders\Weixin\WeixinExtendSocialite@handle'
+
+
+- name: 'Weixin Web'
+  repo: 'https://github.com/SocialiteProviders/Weixin-Web'
+  maintainer: 'xyxu'
+  maintainer_profile: 'https://github.com/xyxu'
+  package: 'socialiteproviders/weixin-web'
+  listener: 'SocialiteProviders\WeixinWeb\WeixinWebExtendSocialite@handle'
+  socialite_name: 'weixinweb'
 
 
 - name: 'WordPress'
@@ -522,6 +683,14 @@
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/xrel'
   listener: 'SocialiteProviders\xREL\xRELExtendSocialite@handle'
+
+
+- name: 'Yahoo'
+  repo: 'https://github.com/SocialiteProviders/Yahoo'
+  maintainer: 'DraperStudio'
+  maintainer_profile: 'https://github.com/DraperStudio'
+  package: 'socialiteproviders/yahoo'
+  listener: 'SocialiteProviders\Yahoo\YahooExtendSocialite@handle'
 
 
 - name: 'Yammer'

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Microsoft Live
 permalink: "/providers/microsoft-live/"
 ---

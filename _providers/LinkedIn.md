@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: LinkedIn
 permalink: "/providers/linkedin/"
 ---
