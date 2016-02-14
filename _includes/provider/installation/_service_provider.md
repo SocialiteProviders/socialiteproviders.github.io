@@ -2,7 +2,7 @@
 
 * Remove `Laravel\Socialite\SocialiteServiceProvider` from your `providers[]` array in `config\app.php` if you have added it already.
 
-* Add `SocialiteProviders\Manager\ServiceProvider` to your `providers[]` array in `config\app.php`.
+* Add `\SocialiteProviders\Manager\ServiceProvider::class` to your `providers[]` array in `config\app.php`.
 
 For example: 
 
@@ -10,7 +10,7 @@ For example:
 'providers' => [
     // a whole bunch of providers
     // remove 'Laravel\Socialite\SocialiteServiceProvider',
-    'SocialiteProviders\Manager\ServiceProvider', // add
+    \SocialiteProviders\Manager\ServiceProvider::class, // add
 ];
 {% endhighlight %}
 

@@ -17,8 +17,9 @@ For example:
  * @var array
  */
 protected $listen = [
-    `SocialiteProviders\Manager\SocialiteWasCalled` => [
+    \SocialiteProviders\Manager\SocialiteWasCalled::class => [
         // add your listeners (aka providers) here
+        '{{ listener }}',
     ],
 ];
 {% endhighlight %}
