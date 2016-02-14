@@ -27,19 +27,19 @@
                 <li>You will need to change the namespaces to match your vendor and package name.</li>
             </ol>
 
-```php
-namespace Your\Name\Space;
+            <code>
+                namespace Your\Name\Space;
 
-use SocialiteProviders\Manager\SocialiteWasCalled;
+                use SocialiteProviders\Manager\SocialiteWasCalled;
 
-class ProviderNameExtendSocialite
-{
-    public function handle(SocialiteWasCalled $socialiteWasCalled)
-    {
-        $socialiteWasCalled->extendSocialite('providername', 'Your\Name\Space\ProviderName');
-    }
-}
-```
+                class ProviderNameExtendSocialite
+                {
+                    public function handle(SocialiteWasCalled $socialiteWasCalled)
+                    {
+                        $socialiteWasCalled->extendSocialite('providername', 'Your\Name\Space\ProviderName');
+                    }
+                }
+            </code>
 
 
         <h4>Resources</h4>
