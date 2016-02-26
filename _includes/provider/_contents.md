@@ -1,4 +1,4 @@
-## Contents
+## Contents of <span>{{ name }}</span>
 
 - [Installation](#installation)
   - [1. Composer](#composer)

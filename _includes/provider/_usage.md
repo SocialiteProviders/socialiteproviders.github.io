@@ -4,7 +4,7 @@
 return Socialite::with('{{ name | downcase | remove: '.' }}')->redirect();
 ```
 
-#### Reference
+<h4 class="section-subtitle">Reference</h4>
 
-* [Laravel Socialite Docs](https://github.com/laravel/socialite)  
+* [Laravel Socialite Docs](https://github.com/laravel/socialite)
 * [Laracasts Socialite video](https://laracasts.com/series/whats-new-in-laravel-5/episodes/9)

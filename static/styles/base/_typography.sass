@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6
     color: $color-headline
-    font-family: $base-font-family
+    font-family: $font-family-headline
     font-weight: bold
 
 h1
@@ -46,7 +46,7 @@ h1
     padding: 10px 0 0
 
 h2
-    color: $color-text
+    color: $color-headline
     font-size: 30px
     font-weight: 300
     padding: 10px 0 8px
@@ -54,15 +54,45 @@ h2
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1)
 
 h3
-    color: $color-text
+    color: $color-headline
     font-size: 24px
     font-weight: 400
     padding: 10px 0 0
     margin-top: 0
 
 h4
-    color: $color-text
+    color: $color-headline
     font-size: 16px
     font-weight: 700
     padding: 0
     margin-top: 0
+
+
+h3.section-title
+    font-size: 18px
+    line-height: 24px
+    color: $color-headline
+    text-transform: uppercase
+    font-weight: 700
+
+h4.section-subtitle
+    font-size: 12px
+    line-height: 18px
+    color: $color-subtitle
+    text-transform: uppercase
+    font-weight: 700
+    display: block
+    margin-top: 5px
+
+h3.section-subtitle
+    font-size: 16px
+    line-height: 18px
+    color: $color-headline
+    text-transform: uppercase
+    font-weight: 700
+    display: block
+    margin-top: 5px
+
+h2
+    span
+        color: $color-primary

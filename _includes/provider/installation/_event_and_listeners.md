@@ -1,4 +1,4 @@
-### 3. Add the Event and Listeners
+<h3 class="section-subtitle">3. Add the Event and Listeners</h3>
 
 * Add `SocialiteProviders\Manager\SocialiteWasCalled` event to your `listen[]` array  in `<app_name>/Providers/EventServiceProvider`.
 
@@ -9,7 +9,7 @@
 * Note: You do not need to add anything for the built-in socialite providers unless you override them with your own providers.
 
 For example:
- 
+
 ```php
 /**
  * The event handler mappings for the application.
@@ -24,7 +24,7 @@ protected $listen = [
 ];
 ```
 
-#### Reference
+<h4 class="section-subtitle">Reference</h4>
 
 * [Laravel docs about events](http://laravel.com/docs/5.0/events)
 * [Laracasts video on events in Laravel 5](https://laracasts.com/lessons/laravel-5-events)

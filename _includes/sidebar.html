@@ -5,7 +5,9 @@
   <ul>
   {% for provider in site.data.providers %}
     <li>
-      <a href="/providers/{{ provider.name | downcase | replace:' ','-' }}" target="_blank">{{ provider.name }}</a>
+      <a href="/providers/{{ provider.name | downcase | replace:' ','-' }}" target="_blank">
+        {{ provider.name }}
+      </a>
     </li>
   {% endfor %}
   </ul>
