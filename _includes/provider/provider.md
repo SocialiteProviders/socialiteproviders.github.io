@@ -31,7 +31,6 @@
 
 {% assign provider_key = provider_key | upcase %}
 
-
 {% comment %}
 Include the templates.  They use the above variables.
 {% endcomment %}
@@ -47,7 +46,6 @@ Include the templates.  They use the above variables.
 {% include provider/installation/_event_and_listeners.md %}
 
 {% include provider/installation/_services_and_env.md %}
-
 
 ## Usage
 

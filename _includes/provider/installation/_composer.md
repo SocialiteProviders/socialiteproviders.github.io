@@ -1,5 +1,4 @@
-
-<h3 class="section-subtitle">1. Composer</h3>
+### 1. Composer
 
 ```bash
 // This assumes that you have composer installed globally

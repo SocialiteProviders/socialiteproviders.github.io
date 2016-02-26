@@ -1,4 +1,4 @@
-<h3 class="section-subtitle">2. Service Provider</h3>
+### 2. Service Provider
 
 * Remove `Laravel\Socialite\SocialiteServiceProvider` from your `providers[]` array in `config\app.php` if you have added it already.
 

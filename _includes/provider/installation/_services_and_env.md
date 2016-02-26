@@ -1,6 +1,6 @@
-<h3 class="section-subtitle">4. Services Array and .env</h3>
+### 4. Services Array and .env
 
-<h4 class="section-subtitle">Add to `config/services.php`.</h4>
+#### Add to `config/services.php`.
 
 ```php
 '{{ provider_key | downcase }}' => [
@@ -13,7 +13,7 @@
 {% endif %}
 ```
 
-<h4 class="section-subtitle">Append provider values to your `.env` file</h4>
+#### Append provider values to your `.env` file
 
 ```php
 // other values above
@@ -23,7 +23,6 @@
 {{ provider_key }}_{{ line.key | upcase }}={{ line.value }} {% endfor %} {% endif %}
 ```
 
-
-<h4 class="section-subtitle">Reference</h4>
+#### Reference
 
 * [Laravel docs on configuration](http://laravel.com/docs/master/configuration)
