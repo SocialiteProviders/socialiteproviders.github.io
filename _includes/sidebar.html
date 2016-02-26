@@ -1,8 +1,8 @@
-<section>
+<aside>
 
-  <h2 id="providers">Providers</h2>
+  <h6 id="providers">Providers</h6>
 
-  <ul class="badges">
+  <ul>
   {% for provider in site.data.providers %}
     <li>
       <a href="/providers/{{ provider.name | downcase | replace:' ','-' }}" target="_blank">{{ provider.name }}</a>
@@ -10,4 +10,4 @@
   {% endfor %}
   </ul>
 
-</section>
+</aside>

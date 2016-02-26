@@ -1,33 +1,22 @@
 header
   background-color: $background-header
   overflow: hidden
+  border-bottom: 1px solid $border-color-dark
   .logo
     float: left
-    color: #666
+    color: $color-text
     font-size: 32px
     padding: 0
     font-weight: 700
-    letter-spacing: 0
   nav
     float: right
     padding: 16px 0 0
     a
       +transition(color 300ms ease-in-out)
-      // color: rgba(255, 255, 255, 0.7)
       display: inline-block
-      letter-spacing: 0.2em
-      color: #666
+      color: $color-text
       font-size: 16px
-      font-weight: 300
       padding: .6em 1em .55em
-
       &:hover
-        color: #666
-        text-decoration: underline
-  .kicker
-    color: white
-    font-weight: 400
-    letter-spacing: 0.2em
-    line-height: 1
-    text-align: center
-    text-transform: uppercase
+        color: $color-accent
+        text-decoration: none
