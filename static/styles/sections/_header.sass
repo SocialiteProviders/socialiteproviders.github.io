@@ -1,27 +1,33 @@
 header
-  background: $background-header-light
-  background: -webkit-linear-gradient(to left, $background-header-light , $background-header-dark)
-  background: linear-gradient(to left, $background-header-light , $background-header-dark)
-  overflow: hidden
-  .logo
-    float: left
-    color: $color-text
-    font-size: 32px
-    padding: 0
-    font-weight: 700
-    font-family: $font-family-logo
-    a
-      color: $color-white
-  nav
-    float: right
-    padding: 16px 0 0
-    a
-      +transition(all 300ms linear)
-      display: inline-block
-      color: $color-white
-      font-size: 16px
-      padding: .6em 1em .55em
-      border-bottom: 1px dotted transparent
-      &:hover
-        color: $color-white
-        border-color: $color-white
+    background: $background-header-light
+    background: -webkit-linear-gradient(to left, $background-header-light, $background-header-dark)
+    background: linear-gradient(to left, $background-header-light, $background-header-dark)
+    overflow: hidden
+
+    .logo
+        float: left
+        color: $color-text
+        font-size: 32px
+        padding: 0
+        font-weight: 700
+        font-family: $font-family-logo
+
+        a
+            color: $color-white
+
+    nav
+        float: right
+        padding: 16px 0 0
+
+        a
+            +transition(all 300ms linear)
+
+            display: inline-block
+            color: $color-white
+            font-size: 16px
+            padding: 0.6em 1em 0.55em
+            border-bottom: 1px dotted transparent
+
+            &:hover
+                color: $color-white
+                border-color: $color-white
