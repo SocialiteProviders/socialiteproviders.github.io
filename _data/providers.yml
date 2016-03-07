@@ -251,12 +251,12 @@
   listener: 'SocialiteProviders\Foursquare\FoursquareExtendSocialite@handle'
 
 
-- name: 'GiLab'
-  repo: 'https://github.com/SocialiteProviders/GiLab'
+- name: 'GitLab'
+  repo: 'https://github.com/SocialiteProviders/GitLab'
   maintainer: 'mrtnsn'
   maintainer_profile: 'https://github.com/mrtnsn'
   package: 'socialiteproviders/gitlab'
-  listener: 'SocialiteProviders\GiLab\GiLabExtendSocialite@handle'
+  listener: 'SocialiteProviders\GitLab\GitLabExtendSocialite@handle'
 
 
 - name: 'Goodreads'
