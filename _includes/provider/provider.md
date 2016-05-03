@@ -13,6 +13,7 @@
             {% assign socialite_name = provider.socialite_name %}
             {% assign provider_key = provider.socialite_name | upcase %}
         {% else %}
+            {% assign socialite_name = name | downcase %}
             {% assign provider_key = name %}
         {% endif %}
 
