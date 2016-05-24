@@ -17,6 +17,20 @@ return Socialite::with('{{ name | downcase | remove: '.' }}')->stateless()->redi
 ```
 
 
+#### Overriding a config
+
+If you need to override the provider's environment or config variables on a per endpoint basis, you may use the following:
+
+```php
+$clientId = "secret";
+$clientSecret = "secret";
+$redirectUrl = "http://yourdomain.com/api/redirect";
+$additionalProviderConfig = ['site' => 'meta.stackoverflow.com'];
+$config = new \SocialiteProviders\Manager\Config($clientId, $clientSecret, $redirectUrl, $additionalProviderConfig);
+return Socialite::with('{{ name | downcase | remove: '.' }}')->setConfig($config)->redirect();
+```
+
+
 #### Reference
 
 * [Laravel Socialite Docs](https://github.com/laravel/socialite)
