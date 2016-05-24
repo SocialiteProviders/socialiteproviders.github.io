@@ -4,11 +4,21 @@
 return Socialite::with('{{ name | downcase | remove: '.' }}')->redirect();
 ```
 
+### Lumen Support
+
+You can use Socialite providers with Lumen.  Just make sure that you have facade support turned on and that you follow the setup directions properly.
+
+**Note:** If you are using this with Lumen, all providers will automatically be stateless since **Lumen** does not keep track of state.
+
+Also, configs cannot be parsed from the `services[]` in Lumen.  You can only set the values in the `.env` file as shown exactly in this document.  If needed, you can
+  also override a config (shown below).
+
+
 ### Stateless
 
 * You can set whether or not you want to use the provider as stateless.  Remember that the OAuth provider (Twitter, Tumblr, etc) must support whatever option you choose.
 
-**Note:** If you are using this with Lumen, all providers will automatically be stateless since Lumen does not keep track of state.
+**Note:** If you are using this with Lumen, all providers will automatically be stateless since **Lumen** does not keep track of state.
 
 ```php
 // to turn off stateless
