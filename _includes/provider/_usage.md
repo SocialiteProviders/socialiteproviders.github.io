@@ -4,7 +4,7 @@
 return Socialite::with('{{ name | downcase | remove: '.' }}')->redirect();
 ```
 
-#### Stateless
+### Stateless
 
 * You can set whether or not you want to use the provider as stateless.  Remember that the OAuth provider (Twitter, Tumblr, etc) must support whatever option you choose.
 
@@ -17,7 +17,7 @@ return Socialite::with('{{ name | downcase | remove: '.' }}')->stateless()->redi
 ```
 
 
-#### Overriding a config
+### Overriding a config
 
 If you need to override the provider's environment or config variables on a per endpoint basis, you may use the following:
 
