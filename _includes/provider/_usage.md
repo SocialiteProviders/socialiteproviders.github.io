@@ -51,7 +51,7 @@ may contain items such as a `refresh_token`.
 You can get the access token response body, after you called the `user()` method in Socialite, by accessing the property `$user->accessTokenResponseBody`;
 
 ```php
-$user = Socialite::driver('github')->user();
+$user = Socialite::driver('{{ name | downcase | remove: '.' }}')->user();
 $accessTokenResponseBody = $user->accessTokenResponseBody;
 ```
 
