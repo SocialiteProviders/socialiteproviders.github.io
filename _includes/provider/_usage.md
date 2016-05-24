@@ -48,7 +48,12 @@ Laravel Socialite by default only allows access to the `access_token`.  Which ca
 via the `\Laravel\Socialite\User->token` public property.  Sometimes you need access to the whole response body which
 may contain items such as a `refresh_token`.
 
-You can get the access token response body after you called the `user()` method in Socialite by accessing the property `$user->accessTokenResponseBody`;
+You can get the access token response body, after you called the `user()` method in Socialite, by accessing the property `$user->accessTokenResponseBody`;
+
+```php
+$user = Socialite::driver('github')->user();
+$accessTokenResponseBody = $user->accessTokenResponseBody;
+```
 
 
 #### Reference
