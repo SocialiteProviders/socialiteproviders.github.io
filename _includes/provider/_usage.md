@@ -8,6 +8,8 @@ return Socialite::with('{{ name | downcase | remove: '.' }}')->redirect();
 
 * You can set whether or not you want to use the provider as stateless.  Remember that the OAuth provider (Twitter, Tumblr, etc) must support whatever option you choose.
 
+**Note:** If you are using this with Lumen, all providers will automatically be stateless since Lumen does not keep track of state.
+
 ```php
 // to turn off stateless
 return Socialite::with('{{ name | downcase | remove: '.' }}')->stateless(false)->redirect();
