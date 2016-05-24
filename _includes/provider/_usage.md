@@ -31,7 +31,7 @@ return Socialite::with('{{ name | downcase | remove: '.' }}')->stateless()->redi
 
 ### Overriding a config
 
-If you need to override the provider's environment or config variables on a per endpoint basis, you may use the following:
+If you need to override the provider's environment or config variables dynamically anywhere in your application, you may use the following:
 
 ```php
 $clientId = "secret";
@@ -41,6 +41,14 @@ $additionalProviderConfig = ['site' => 'meta.stackoverflow.com'];
 $config = new \SocialiteProviders\Manager\Config($clientId, $clientSecret, $redirectUrl, $additionalProviderConfig);
 return Socialite::with('{{ name | downcase | remove: '.' }}')->setConfig($config)->redirect();
 ```
+
+### Retrieving the Access Token Response Body
+
+Laravel Socialite by default only allows access to the `access_token`.  Which can be accessed
+via the `\Laravel\Socialite\User->token` public property.  Sometimes you need access to the whole response body which
+may contain items such as a `refresh_token`.
+
+You can get the access token response body after you called the `user()` method in Socialite by accessing the property `$user->accessTokenResponseBody`;
 
 
 #### Reference
