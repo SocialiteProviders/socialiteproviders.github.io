@@ -1,7 +1,7 @@
 * You should now be able to use it like you would regularly use Socialite (assuming you have the facade installed):
 
 ```php
-return Socialite::with('{{ name | downcase | remove: '.' }}')->redirect();
+return Socialite::with('{{ provider_key | downcase }}')->redirect();
 ```
 
 ### Lumen Support
