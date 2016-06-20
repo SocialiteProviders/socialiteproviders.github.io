@@ -24,7 +24,7 @@ protected $listen = [
 ];
 ```
 
-#### Reference</h4>
+#### Reference
 
 * [Laravel docs about events](http://laravel.com/docs/5.0/events)
 * [Laracasts video on events in Laravel 5](https://laracasts.com/lessons/laravel-5-events)
