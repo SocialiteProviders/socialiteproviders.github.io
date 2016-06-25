@@ -284,6 +284,15 @@
   listener: 'SocialiteProviders\Heroku\HerokuExtendSocialite@handle'
 
 
+
+- name: 'Hitbox'
+  repo: 'https://github.com/SocialiteProviders/Hitbox'
+  maintainer: 'Meroje'
+  maintainer_profile: 'https://github.com/Meroje'
+  package: 'socialiteproviders/hitbox'
+  listener: 'SocialiteProviders\Hitbox\HitboxExtendSocialite@handle'
+
+
 - name: 'Human API'
   repo: 'https://github.com/SocialiteProviders/Human-API'
   maintainer: 'DraperStudio'
