@@ -435,7 +435,7 @@
   repo: 'https://github.com/SocialiteProviders/PayPal-Sandbox'
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
-  package: 'socialiteproviders/paypal_sandbox'
+  package: 'socialiteproviders/paypal-sandbox'
   listener: 'SocialiteProviders\PayPalSandbox\PayPalSandboxExtendSocialite@handle'
   socialite_name: 'paypal_sandbox'
 
