@@ -144,7 +144,7 @@
   maintainer: 'DraperStudio'
   maintainer_profile: 'https://github.com/DraperStudio'
   package: 'socialiteproviders/deviantart'
-  listener: 'SocialiteProviders\DeviantArt\DeviantArtExtendSocialite@handle'
+  listener: 'SocialiteProviders\DeviantArt\DeviantartExtendSocialite@handle'
 
 
 - name: 'DigitalOcean'
