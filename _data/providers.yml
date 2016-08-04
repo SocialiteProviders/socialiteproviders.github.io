@@ -155,6 +155,14 @@
   listener: 'SocialiteProviders\DigitalOcean\DigitalOceanExtendSocialite@handle'
 
 
+- name: 'Discord'
+  repo: 'https://github.com/SocialiteProviders/Discord'
+  maintainer: 'eklundchristopher'
+  maintainer_profile: 'https://github.com/eklundchristopher'
+  package: 'socialiteproviders/discord'
+  listener: 'SocialiteProviders\Discord\DiscordExtendSocialite@handle'
+
+
 - name: 'Disqus'
   repo: 'https://github.com/SocialiteProviders/Disqus'
   maintainer: 'DraperStudio'
