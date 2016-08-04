@@ -566,6 +566,14 @@
       value: 'stackoverflow'
 
 
+- name: 'Steam'
+  repo: 'https://github.com/SocialiteProviders/Steam'
+  maintainer: 'eklundchristopher'
+  maintainer_profile: 'https://github.com/eklundchristopher'
+  package: 'socialiteproviders/steam'
+  listener: 'SocialiteProviders\Steam\SteamExtendSocialite@handle'
+
+
 - name: 'StockTwits'
   repo: 'https://github.com/SocialiteProviders/StockTwits'
   maintainer: 'DraperStudio'
