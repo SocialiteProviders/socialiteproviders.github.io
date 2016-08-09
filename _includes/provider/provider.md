@@ -13,8 +13,11 @@
             {% assign socialite_name = provider.socialite_name %}
             {% assign provider_key = provider.socialite_name | upcase %}
         {% else %}
+            {% assign socialite_name = name | downcase %}
             {% assign provider_key = name %}
         {% endif %}
+
+        {% assign socialite_name = socialite_name | remove: '.' | replace:' ','_' %}
 
         {% assign extra_service_lines = provider.extra_service_lines %}
         {% assign extra_env_lines = provider.extra_env_lines %}
