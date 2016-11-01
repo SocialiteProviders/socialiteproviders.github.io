@@ -756,3 +756,43 @@
   maintainer_profile: 'https://github.com/faustbrian'
   package: 'socialiteproviders/zendesk'
   listener: 'SocialiteProviders\Zendesk\ZendeskExtendSocialite@handle'
+
+
+- name: 'RedBooth'
+  repo: 'https://github.com/SocialiteProviders/Redbooth'
+  maintainer: 'Ivar Smits'
+  maintainer_profile: 'https://github.com/faustbrian'
+  package: 'socialiteproviders/redbooth'
+  listener: 'SocialiteProviders\RedBooth\RedBoothExtendSocialite@handle'
+
+
+- name: 'Trakt'
+  repo: 'https://github.com/SocialiteProviders/Trakt'
+  maintainer: 'Dimitris Zavantias'
+  maintainer_profile: 'https://github.com/faustbrian'
+  package: 'socialiteproviders/trakt'
+  listener: 'SocialiteProviders\Trakt\TraktExtendSocialite@handle'
+
+
+- name: 'Patreon'
+  repo: 'https://github.com/SocialiteProviders/Patreon'
+  maintainer: 'Pieter Maes'
+  maintainer_profile: 'https://github.com/faustbrian'
+  package: 'socialiteproviders/patreon'
+  listener: 'SocialiteProviders\Patreon\PatreonExtendSocialite@handle'
+
+
+- name: 'Dataporten'
+  repo: 'https://github.com/SocialiteProviders/Dataporten'
+  maintainer: 'Jørgen Birkhaug'
+  maintainer_profile: 'https://github.com/faustbrian'
+  package: 'socialiteproviders/dataporten'
+  listener: 'SocialiteProviders\Dataporten\DataportenExtendSocialite@handle'
+
+
+- name: 'Battle.net'
+  repo: 'https://github.com/SocialiteProviders/Battlenet'
+  maintainer: 'faustbrian'
+  maintainer_profile: 'https://github.com/faustbrian'
+  package: 'socialiteproviders/battle.net'
+  listener: 'SocialiteProviders\Battlenet\BattlenetExtendSocialite@handle'
