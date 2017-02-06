@@ -798,10 +798,17 @@
   listener: 'SocialiteProviders\Battlenet\BattlenetExtendSocialite@handle'
 
 
-
 - name: 'Shopify'
   repo: 'https://github.com/SocialiteProviders/Shopify'
   maintainer: 'CullenIO'
   maintainer_profile: 'https://github.com/CullenIO'
   package: 'socialiteproviders/shopify'
   listener: 'SocialiteProviders\Shopify\ShopifyExtendSocialite@handle'
+
+
+- name: 'Microsoft-Graph'
+  repo: 'https://github.com/SocialiteProviders/Microsoft-Graph'
+  maintainer: 'CJEdgerton'
+  maintainer_profile: 'https://github.com/CJEdgerton'
+  package: 'socialiteproviders/shopify'
+  listener: 'SocialiteProviders\Graph\GraphExtendSocialite@handle'
