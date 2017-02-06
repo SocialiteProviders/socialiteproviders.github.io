@@ -806,7 +806,7 @@
   listener: 'SocialiteProviders\Shopify\ShopifyExtendSocialite@handle'
 
 
-- name: 'Microsoft-Graph'
+- name: 'Microsoft Graph'
   repo: 'https://github.com/SocialiteProviders/Microsoft-Graph'
   maintainer: 'CJEdgerton'
   maintainer_profile: 'https://github.com/CJEdgerton'
