@@ -796,3 +796,12 @@
   maintainer_profile: 'https://github.com/faustbrian'
   package: 'socialiteproviders/battle.net'
   listener: 'SocialiteProviders\Battlenet\BattlenetExtendSocialite@handle'
+
+
+
+- name: 'Shopify'
+  repo: 'https://github.com/SocialiteProviders/Shopify'
+  maintainer: 'CullenIO'
+  maintainer_profile: 'https://github.com/CullenIO'
+  package: 'socialiteproviders/shopify'
+  listener: 'SocialiteProviders\Shopify\ShopifyExtendSocialite@handle'
