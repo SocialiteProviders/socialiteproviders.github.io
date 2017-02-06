@@ -292,7 +292,6 @@
   listener: 'SocialiteProviders\Heroku\HerokuExtendSocialite@handle'
 
 
-
 - name: 'Hitbox'
   repo: 'https://github.com/SocialiteProviders/Hitbox'
   maintainer: 'Meroje'
@@ -812,7 +811,7 @@
   maintainer_profile: 'https://github.com/CJEdgerton'
   package: 'socialiteproviders/microsoft-graph'
   listener: 'SocialiteProviders\Graph\GraphExtendSocialite@handle'
-
+  socialite_name: 'graph'
 
 - name: 'Acclaim'
   repo: 'https://github.com/SocialiteProviders/Acclaim'
