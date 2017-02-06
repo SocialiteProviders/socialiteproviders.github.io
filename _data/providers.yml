@@ -810,5 +810,13 @@
   repo: 'https://github.com/SocialiteProviders/Microsoft-Graph'
   maintainer: 'CJEdgerton'
   maintainer_profile: 'https://github.com/CJEdgerton'
-  package: 'socialiteproviders/shopify'
+  package: 'socialiteproviders/microsoft-graph'
   listener: 'SocialiteProviders\Graph\GraphExtendSocialite@handle'
+
+
+- name: 'Acclaim'
+  repo: 'https://github.com/SocialiteProviders/Acclaim'
+  maintainer: 'pavankumarkatakam'
+  maintainer_profile: 'https://github.com/pavankumarkatakam'
+  package: 'socialiteproviders/acclaim'
+  listener: 'SocialiteProviders\Acclaim\AcclaimExtendSocialite@handle'
