@@ -1,32 +1,38 @@
 header
-    background: $background-header-light
-    background: -webkit-linear-gradient(to left, $background-header-light, $background-header-dark)
-    background: linear-gradient(to left, $background-header-light, $background-header-dark)
+    // background: $background-header-light
+    // background: -webkit-linear-gradient(to left, $background-header-light, $background-header-dark)
+    // background: linear-gradient(to left, $background-header-light, $background-header-dark)
+
+    background-color: #FFFFFF
+    box-shadow: 1px 0px 2px 2px rgba(42, 42, 42, 0.25)
+    border-top: 6px solid #F4645F
     overflow: hidden
 
     .logo
         color: $color-text
         float: left
         font-family: $font-family-logo
-        font-size: 32px
+        font-size: 24px
         font-weight: 700
         padding: 0
 
         a
-            color: $color-white
+            color: $color-text
 
     nav
         float: right
-        padding: 16px 0 0
+        padding: 10px 0 0
 
         a
             +transition(all 300ms linear)
-            border-bottom: 1px dotted transparent
-            color: $color-white
+
+            color: $color-gray
             display: inline-block
-            font-size: 16px
+            font-family: $font-family-headline
+            font-size: 14px
             padding: 0.6em 1em 0.55em
+            font-weight: 700
 
             &:hover
-                border-color: $color-white
-                color: $color-white
+                border-color: darken($color-primary, 5%)
+                color: darken($color-primary, 5%)
