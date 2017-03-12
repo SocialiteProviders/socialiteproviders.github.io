@@ -793,7 +793,7 @@
   repo: 'https://github.com/SocialiteProviders/Battlenet'
   maintainer: 'faustbrian'
   maintainer_profile: 'https://github.com/faustbrian'
-  package: 'socialiteproviders/battle.net'
+  package: 'socialiteproviders/battlenet'
   listener: 'SocialiteProviders\Battlenet\BattlenetExtendSocialite@handle'
 
 
