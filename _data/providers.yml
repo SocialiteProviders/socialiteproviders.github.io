@@ -796,7 +796,6 @@
   package: 'socialiteproviders/battlenet'
   listener: 'SocialiteProviders\Battlenet\BattlenetExtendSocialite@handle'
 
-
 - name: 'Shopify'
   repo: 'https://github.com/SocialiteProviders/Shopify'
   maintainer: 'CullenIO'
@@ -819,3 +818,10 @@
   maintainer_profile: 'https://github.com/pavankumarkatakam'
   package: 'socialiteproviders/acclaim'
   listener: 'SocialiteProviders\Acclaim\AcclaimExtendSocialite@handle'
+
+- name: 'SciStarter'
+  repo: 'https://github.com/SocialiteProviders/SciStarter'
+  maintainer: 'ryanvade'
+  maintainer_profile: 'https://github.com/ryanvade'
+  package: 'socialiteproviders/scistarter'
+  listener: 'SocialiteProviders\SciStarter\SciStarterExtendSocialite@handle'
