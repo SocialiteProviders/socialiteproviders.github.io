@@ -825,3 +825,10 @@
   maintainer_profile: 'https://github.com/ryanvade'
   package: 'socialiteproviders/scistarter'
   listener: 'SocialiteProviders\SciStarter\SciStarterExtendSocialite@handle'
+
+- name: 'Yiban'
+  repo: 'https://github.com/SocialiteProviders/Yiban'
+  maintainer: 'orochizzzzzzz'
+  maintainer_profile: 'https://github.com/orochizzzzzzz'
+  package: 'socialiteproviders/yiban'
+  listener: 'SocialiteProviders\Yiban\YibanExtendSocialite@handle'
