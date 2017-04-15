@@ -14,4 +14,4 @@ For example:
 ];
 ```
 
-* Note: If you would like to use the Socialite Facade, you need to [install it.](http://laravel.com/docs/5.0/authentication#social-authentication)
+* Note: If you would like to use the Socialite Facade, you need to [install it.](https://github.com/laravel/socialite)
