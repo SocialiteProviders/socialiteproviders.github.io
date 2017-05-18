@@ -832,3 +832,17 @@
   maintainer_profile: 'https://github.com/orochizzzzzzz'
   package: 'socialiteproviders/yiban'
   listener: 'SocialiteProviders\Yiban\YibanExtendSocialite@handle'
+
+- name: 'TVShowTime'
+  repo: 'https://github.com/SocialiteProviders/TVShowTime'
+  maintainer: 'Henokv'
+  maintainer_profile: 'https://github.com/Henokv'
+  package: 'socialiteproviders/tvshowtime'
+  listener: 'SocialiteProviders\TVShowTime\TVShowTimeExtendSocialite@handle'
+
+- name: 'Unsplash'
+  repo: 'https://github.com/SocialiteProviders/Unsplash'
+  maintainer: 'mayoz'
+  maintainer_profile: 'https://github.com/mayoz'
+  package: 'socialiteproviders/unsplash'
+  listener: 'SocialiteProviders\Unsplash\UnsplashExtendSocialite@handle'
