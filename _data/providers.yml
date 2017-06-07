@@ -846,3 +846,10 @@
   maintainer_profile: 'https://github.com/mayoz'
   package: 'socialiteproviders/unsplash'
   listener: 'SocialiteProviders\Unsplash\UnsplashExtendSocialite@handle'
+
+- name: 'ProjectV'
+  repo: 'https://github.com/SocialiteProviders/ProjectV'
+  maintainer: 'vreezy'
+  maintainer_profile: 'https://github.com/vreezy'
+  package: 'socialiteproviders/projectv'
+  listener: 'SocialiteProviders\ProjectV\ProjectVExtendSocialite@handle'
