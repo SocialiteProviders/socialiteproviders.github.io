@@ -470,6 +470,15 @@
   package: 'socialiteproviders/pushbullet'
   listener: 'SocialiteProviders\Pushbullet\PushbulletExtendSocialite@handle'
 
+
+- name: 'QuickBooks'
+  repo: 'https://github.com/SocialiteProviders/QuickBooks'
+  maintainer: 'alexhouse'
+  maintainer_profile: 'https://github.com/alexhouse'
+  package: 'socialiteproviders/quickbooks'
+  listener: 'SocialiteProviders\QuickBooks\QuickBooksExtendSocialite@handle'
+
+
 - name: 'QQ'
   repo: 'https://github.com/SocialiteProviders/QQ'
   maintainer: 'runphp'
