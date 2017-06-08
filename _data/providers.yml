@@ -853,3 +853,10 @@
   maintainer_profile: 'https://github.com/vreezy'
   package: 'socialiteproviders/projectv'
   listener: 'SocialiteProviders\ProjectV\ProjectVExtendSocialite@handle'
+
+- name: 'QuickBooks'
+  repo: 'https://github.com/SocialiteProviders/QuickBooks'
+  maintainer: 'alexhouse'
+  maintainer_profile: 'https://github.com/alexhouse'
+  package: 'socialiteproviders/quickbooks'
+  listener: 'SocialiteProviders\QuickBooks\QuickBooksExtendSocialite@handle'
