@@ -860,3 +860,17 @@
   maintainer_profile: 'https://github.com/alexhouse'
   package: 'socialiteproviders/quickbooks'
   listener: 'SocialiteProviders\QuickBooks\QuickBooksExtendSocialite@handle'
+
+- name: 'Mixer'
+  repo: 'https://github.com/SocialiteProviders/Mixer'
+  maintainer: 'hootener'
+  maintainer_profile: 'https://github.com/hootener'
+  package: 'socialiteproviders/mixer'
+  listener: 'SocialiteProviders\Mixer\MixerExtendSocialite@handle'
+
+- name: 'HubSpot'
+  repo: 'https://github.com/SocialiteProviders/HubSpot'
+  maintainer: 'swilla'
+  maintainer_profile: 'https://github.com/swilla'
+  package: 'socialiteproviders/hubspot'
+  listener: 'SocialiteProviders\HubSpot\HubSpotExtendSocialite@handle'
