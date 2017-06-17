@@ -868,6 +868,13 @@
   package: 'socialiteproviders/mixer'
   listener: 'SocialiteProviders\Mixer\MixerExtendSocialite@handle'
 
+- name: 'GameWisp'
+  repo: 'https://github.com/SocialiteProviders/GameWisp'
+  maintainer: 'hootener'
+  maintainer_profile: 'https://github.com/hootener'
+  package: 'socialiteproviders/gamewisp'
+  listener: 'SocialiteProviders\GameWisp\GameWispExtendSocialite@handle'
+
 - name: 'HubSpot'
   repo: 'https://github.com/SocialiteProviders/HubSpot'
   maintainer: 'swilla'
