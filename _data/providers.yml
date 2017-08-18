@@ -881,3 +881,10 @@
   maintainer_profile: 'https://github.com/swilla'
   package: 'socialiteproviders/hubspot'
   listener: 'SocialiteProviders\HubSpot\HubSpotExtendSocialite@handle'
+
+- name: 'Untappd'
+  repo: 'https://github.com/SocialiteProviders/Untappd'
+  maintainer: 'arsoba'
+  maintainer_profile: 'https://github.com/arsoba'
+  package: 'socialiteproviders/untappd'
+  listener: 'SocialiteProviders\Untappd\UntappdExtendSocialite@handle'
