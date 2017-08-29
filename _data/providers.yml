@@ -888,3 +888,10 @@
   maintainer_profile: 'https://github.com/arsoba'
   package: 'socialiteproviders/untappd'
   listener: 'SocialiteProviders\Untappd\UntappdExtendSocialite@handle'
+
+- name: 'ArcGIS'
+  repo: 'https://github.com/SocialiteProviders/ArcGIS'
+  maintainer: 'davidpiesse'
+  maintainer_profile: 'https://github.com/davidpiesse'
+  package: 'socialiteproviders/arcgis'
+  listener: 'SocialiteProviders\ArcGIS\ArcGISExtendSocialite@handle'
