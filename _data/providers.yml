@@ -895,3 +895,10 @@
   maintainer_profile: 'https://github.com/davidpiesse'
   package: 'socialiteproviders/arcgis'
   listener: 'SocialiteProviders\ArcGIS\ArcGISExtendSocialite@handle'
+
+- name: 'Ufutx'
+  repo: 'https://github.com/SocialiteProviders/Ufutx'
+  maintainer: 'glore'
+  maintainer_profile: 'https://github.com/glore'
+  package: 'socialiteproviders/ufutx'
+  listener: 'SocialiteProviders\Ufutx\UfutxExtendSocialite@handle'
