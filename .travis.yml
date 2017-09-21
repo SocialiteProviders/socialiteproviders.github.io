@@ -9,7 +9,7 @@ install:
 
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-html
+  - bundle exec htmlproofer ./_site --only-4xx --check-html
 
 cache:
   directories:
