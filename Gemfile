@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
+
 gem 'github-pages'
-gem 'html-proofer'
 gem 'rouge'
+
+group :test do
+  gem "html-proofer"
+end
