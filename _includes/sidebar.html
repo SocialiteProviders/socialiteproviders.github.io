@@ -3,7 +3,7 @@
   <h6 id="providers">Providers</h6>
 
   <ul>
-  {% assign dataProviders = (site.data.providers | sort: 'name') %}
+  {% assign dataProviders = (site.data.providers | sort_natural: 'name') %}
   {% for provider in dataProviders %}
     <li>
       <a href="/providers/{{ provider.name | downcase | replace:' ','-' }}" target="_blank">
