@@ -348,6 +348,14 @@
   listener: 'SocialiteProviders\Kakao\KakaoExtendSocialite@handle'
 
 
+- name: 'LINE'
+  repo: 'https://github.com/SocialiteProviders/Line'
+  maintainer: 'jeremy5189'
+  maintainer_profile: 'https://github.com/jeremy5189'
+  package: 'socialiteproviders/line'
+  listener: 'SocialiteProviders\Line\LineExtendSocialite@handle'
+
+
 - name: 'LinkedIn'
   repo: 'https://github.com/SocialiteProviders/LinkedIn'
   maintainer: 'faustbrian'
