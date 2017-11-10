@@ -350,8 +350,8 @@
 
 - name: 'LINE'
   repo: 'https://github.com/SocialiteProviders/Line'
-  maintainer: 'jeremy5189'
-  maintainer_profile: 'https://github.com/jeremy5189'
+  maintainer: 'mix5003'
+  maintainer_profile: 'https://github.com/mix5003'
   package: 'socialiteproviders/line'
   listener: 'SocialiteProviders\Line\LineExtendSocialite@handle'
 
