@@ -284,6 +284,14 @@
   socialite_name: 'google'
 
 
+- name: 'Harvest'
+  repo: 'https://github.com/SocialiteProviders/Harvest'
+  maintainer: 'jjozwiak'
+  maintainer_profile: 'https://github.com/jjozwiak'
+  package: 'socialiteproviders/harvest'
+  listener: 'SocialiteProviders\Harvest\HarvestExtendSocialite@handle'
+
+
 - name: 'Heroku'
   repo: 'https://github.com/SocialiteProviders/Heroku'
   maintainer: 'faustbrian'
