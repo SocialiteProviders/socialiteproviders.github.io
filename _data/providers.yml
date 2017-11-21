@@ -437,6 +437,18 @@
   package: 'socialiteproviders/naver'
   listener: 'SocialiteProviders\Naver\NaverExtendSocialite@handle'
 
+- name: 'Okta'
+  repo: 'https://github.com/SocialiteProviders/Okta'
+  maintainer: 'chaseconey'
+  maintainer_profile: 'https://github.com/chaseconey'
+  package: 'socialiteproviders/okta'
+  listener: 'SocialiteProviders\Okta\OktaExtendSocialite@handle'
+  extra_service_lines:
+    - key: 'BASE_URL'
+      value: 'BASE_URL'
+  extra_env_lines:
+    - key: 'base_url'
+      value: 'base-url-for-your-company'
 
 - name: 'Paymill'
   repo: 'https://github.com/SocialiteProviders/Paymill'
