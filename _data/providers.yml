@@ -550,6 +550,12 @@
   package: 'socialiteproviders/slack'
   listener: 'SocialiteProviders\Slack\SlackExtendSocialite@handle'
 
+- name: 'Smashcast'
+  repo: 'https://github.com/SocialiteProviders/Smashcast'
+  maintainer: 'HutterValentin'
+  maintainer_profile: 'https://github.com/valh1996'
+  package: 'socialiteproviders/smashcast'
+  listener: 'SocialiteProviders\Smashcast\SmashcastExtendSocialite@handle'
 
 - name: 'SoundCloud'
   repo: 'https://github.com/SocialiteProviders/SoundCloud'
