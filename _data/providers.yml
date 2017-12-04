@@ -936,3 +936,10 @@
   maintainer_profile: 'https://github.com/glore'
   package: 'socialiteproviders/ufutx'
   listener: 'SocialiteProviders\Ufutx\UfutxExtendSocialite@handle'
+
+- name: 'Discogs'
+  repo: 'https://github.com/SocialiteProviders/Discogs'
+  maintainer: 'bbeng89'
+  maintainer_profile: 'https://github.com/bbeng89'
+  package: 'socialiteproviders/discogs'
+  listener: 'SocialiteProviders\Discogs\DiscogsExtendSocialite@handle'
