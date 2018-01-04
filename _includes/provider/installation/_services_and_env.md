@@ -1,7 +1,7 @@
 ### 4. Configuration setup
 
 For development purpose, needed configuration is automatically retrieved from your .env if they are written as exactly shown below.
-However we reccomand to **manually add an entry to the services configuration file** because after config files are cached for usage in production environment (Laravel command `artisan config:cache`), **values stored in the .env file are not accessible anymore by the application and the provider won't work**.
+However we recommend to **manually add an entry to the services configuration file** because after config files are cached for usage in production environment (Laravel command `artisan config:cache`), **values stored in the .env file are not accessible anymore by the application and the provider won't work**.
 
 #### Append provider values to your `.env` file
 
