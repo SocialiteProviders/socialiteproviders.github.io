@@ -1,6 +1,7 @@
-### 4. Environment Variables
+### 4. Configuration setup
 
-If you add environment values to your .env as exactly shown below, **you do not need to add an entry to the services array.**
+For development purpose, needed configuration is automatically retrieved from your .env if they are written as exactly shown below.
+However we recommend to **manually add an entry to the services configuration file** because after config files are cached for usage in production environment (Laravel command `artisan config:cache`), **values stored in the .env file are not accessible anymore by the application and the provider won't work**.
 
 #### Append provider values to your `.env` file
 
@@ -15,9 +16,6 @@ If you add environment values to your .env as exactly shown below, **you do not 
 
 
 #### Add to `config/services.php`.
-
-**You do not need to add this if you add the values to the .env exactly as shown above.**
-The values below are provided as a convenience in the case that a developer is not able to use the `.env` method
 
 ```php
 '{{ provider_key | downcase }}' => [
