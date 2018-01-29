@@ -1,6 +1,6 @@
 ### 4. Configuration setup
 
-We recommend to **manually add an entry to the services configuration file** because after config files are cached for usage in production environment (Laravel command `artisan config:cache`), **values stored in the .env file are not accessible anymore by the application and the provider won't work**.
+You will need to add an entry to the services configuration file so that after config files are cached for usage in production environment (Laravel command `artisan config:cache`) all config is still available.
 
 #### Add to `config/services.php`.
 
