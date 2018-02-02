@@ -789,6 +789,12 @@
   maintainer_profile: 'https://github.com/faustbrian'
   package: 'socialiteproviders/zendesk'
   listener: 'SocialiteProviders\Zendesk\ZendeskExtendSocialite@handle'
+  extra_service_lines:
+    - key: 'subdomain'
+      value: 'subdomain'
+  extra_env_lines:
+    - key: 'subdomain'
+      value: 'your-zendesk-subdomain'
 
 
 - name: 'RedBooth'
