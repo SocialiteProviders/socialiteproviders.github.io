@@ -7,9 +7,6 @@
 #  extra_service_lines:
 #    - key: 'test'
 #      value: 'testing'
-#  extra_env_lines:
-#    - key: 'test'
-#      value: 'testing'
 
 - name: '37Signals'
   repo: 'https://github.com/SocialiteProviders/37Signals'
@@ -446,9 +443,6 @@
   extra_service_lines:
     - key: 'BASE_URL'
       value: 'BASE_URL'
-  extra_env_lines:
-    - key: 'base_url'
-      value: 'base-url-for-your-company'
 
 - name: 'Paymill'
   repo: 'https://github.com/SocialiteProviders/Paymill'
@@ -592,11 +586,6 @@
       value: 'KEY'
     - key: 'site'
       value: 'SITE'
-  extra_env_lines:
-    - key: 'KEY'
-      value: 'yourkeyfortheservice'
-    - key: 'SITE'
-      value: 'stackoverflow'
 
 
 - name: 'Steam'
@@ -792,9 +781,6 @@
   extra_service_lines:
     - key: 'subdomain'
       value: 'subdomain'
-  extra_env_lines:
-    - key: 'subdomain'
-      value: 'your-zendesk-subdomain'
 
 
 - name: 'RedBooth'
