@@ -1,8 +1,11 @@
 const providers = require('./providers')
 
 let sidebarItems = []
+
+const slugify = require('@sindresorhus/slugify')
+
 Object.values(providers).forEach((provider) => sidebarItems.push([
-  `/providers/${provider.name}`, provider.name
+  `/providers/${slugify(provider.name)}`, provider.name
 ]))
 
 module.exports = {

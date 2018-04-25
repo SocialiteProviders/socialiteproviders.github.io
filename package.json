@@ -4,6 +4,8 @@
     "build": "vuepress build"
   },
   "devDependencies": {
+    "@sindresorhus/slugify": "^0.2.0",
+    "fs-extra": "^5.0.0",
     "vuepress": "^0.8.4"
   }
 }
