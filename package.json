@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
   },
   "devDependencies": {
     "@sindresorhus/slugify": "^0.2.0",
